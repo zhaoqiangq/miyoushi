@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/work/work",
+    "pages/youshi/youshi",
+    "pages/my/my",
+    "pages/details/details"    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "觅优师",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "color": "#000",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/images/tabicon01.png",
+        "selectedIconPath": "assets/images/tabicon1.png"
+      },
+      {
+        "pagePath": "pages/work/work",
+        "text": "日志",
+        "iconPath": "assets/images/tabicon02.png",
+        "selectedIconPath": "assets/images/tabicon2.png"
+      },
+      {
+        "pagePath": "pages/youshi/youshi",
+        "text": "优师",
+        "iconPath": "assets/images/tabicon03.png",
+        "selectedIconPath": "assets/images/tabicon3.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "assets/images/tabicon04.png",
+        "selectedIconPath": "assets/images/tabicon4.png"
+      }
+    ]
+  }
+}

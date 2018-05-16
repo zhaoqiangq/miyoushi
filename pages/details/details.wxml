@@ -1,0 +1,78 @@
+<!--pages/details/details.wxml-->
+<view class="msg">
+  <view class="msgtop">
+    <view class="magimg">
+        <image src="/assets/images/img2.png" mode="widthFix"/> 
+    </view>
+    <view class="msgfont">
+       <view>用你的语言抓住学生</view>
+       <text>吴晓波</text>
+    </view>
+  </view>
+  <view class="intro">
+    <text>我是胖子邓， 15 岁考入北大， 12 级本科生，你的同龄人。</text>
+<text>我一直认为，读书的魅力，就在于和那些伟大的头脑交锋，碰撞，用他们的智慧来指导我们自己。</text>
+<text>于我而言，发掘一本好书，汲取书中养分，是欣喜至极的事。在这个过程中，我总结了一些私人的阅读方法，想要分享给你。</text>
+<text>阅读，是每一个求知的人日常生活的一部分。。</text>
+  </view>
+</view>
+ <audio  src="{{src}}" id="myAudio" controls loop bindtimeupdate="audioPress">
+      </audio> 
+<view class="plays">
+    <view class="play" catchtap="audioPlay" hidden="{{isplay}}">
+       <image src="/assets/images/1.png" mode="widthFix"/>
+    </view>
+    <view class="play" catchtap="audioPause" hidden="{{!isplay}}">
+       <image src="/assets/images/2.png" mode="widthFix" />
+     </view>
+    <progress percent="{{audioPress}}" stroke-width="3"/>
+    <text>05:21</text>
+</view>
+
+<view class="clap">
+  <image src='/assets/images/9.png' mode='widthFix'></image>
+  <text>232人鼓掌</text>
+</view>
+
+<view class="img-box">
+<view class="img-list">
+  <view class="img-item">
+    <image src="/assets/images/img2.png" mode="widthFix"/> 
+  </view>
+   <view class="img-item">
+    <image src="/assets/images/img2.png" mode="widthFix"/> 
+  </view>
+   <view class="img-item">
+    <image src="/assets/images/img2.png" mode="widthFix"/> 
+  </view>
+   <view class="img-item">
+    <image src="/assets/images/img2.png" mode="widthFix"/> 
+  </view>
+   <view class="img-item">
+    <image src="/assets/images/img2.png" mode="widthFix"/> 
+  </view>
+   <view class="img-item">
+    <image src="/assets/images/img2.png" mode="widthFix"/> 
+  </view>
+   <view class="img-item">
+    <image src="/assets/images/img2.png" mode="widthFix"/> 
+  </view>
+   <view class="img-item">
+    <image src="/assets/images/img2.png" mode="widthFix"/> 
+  </view>
+   <view class="img-item">
+    <image src="/assets/images/img2.png" mode="widthFix"/> 
+  </view>
+   <view class="img-item">
+    <image src="/assets/images/img2.png" mode="widthFix"/> 
+  </view>
+   <view class="img-item">
+    <image src="/assets/images/img2.png" mode="widthFix"/> 
+  </view>
+</view>
+</view>
+
+<view class="img-title">
+  <image src='/assets/images/11.png' mode="widthFix"> </image>
+  <text>阿里巴巴提供云技术支持</text>
+</view>

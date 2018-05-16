@@ -1,0 +1,158 @@
+<!--index.wxml-->
+ <scroll-view scroll-y="true" lower-threshold="50" bindscrolltolower="scrolldalist" style='height:100%;'>
+<view class="content">
+  <!-- banner -->
+     <swiper indicator-dots="true"  indicator-color="#809ca0" indicator-active-color="#fff" autoplay="true" interval="1500" duration="500" circular="true">
+    <block wx:for="{{imgUrls}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" mode="widthFix"/>
+      </swiper-item>
+    </block>
+  </swiper>   
+  <!-- list -->
+  <view class="audio-list">
+    <!-- audio-item -->
+    <view class="audio-item" bindtap="todetails">
+     <audio  src="{{src}}" id="myAudio" controls loop bindtimeupdate="audioPress">
+      </audio> 
+      <view class="audio-left">
+          <view class="audio-img">
+               <image src="/assets/images/img2.png" mode="widthFix"/> 
+          </view>
+          <text>{{name}}</text>
+      </view>
+      <view class="audio-right">
+        <text class="h6">用你的语言抓住学生</text>
+        <view class="audio-msg">
+           <view class="play" catchtap="audioPlay" hidden="{{isplay}}">
+            <image src="/assets/images/1.png" mode="widthFix"/>
+          </view>
+          <view class="play" catchtap="audioPause" hidden="{{!isplay}}">
+            <image src="/assets/images/2.png" mode="widthFix" />
+          </view>
+          <progress percent="{{audioPress}}" stroke-width="3"/>
+          <text>05:21</text>
+          <image src="/assets/images/3.png"  class="shu" mode="widthFix" />
+        </view>
+        <view class="applause">
+         <image src="/assets/images/4.png" mode="widthFix"/>
+         <text>232人鼓掌</text> <text>已听完</text>
+        </view>
+      </view>
+    </view>
+    <!-- audio-item -->
+    <view class="audio-item" bindtap="todetails">
+     <audio  src="{{src}}" id="myAudio" controls loop bindtimeupdate="audioPress">
+      </audio> 
+      <view class="audio-left">
+          <view class="audio-img">
+               <image src="/assets/images/img2.png" mode="widthFix"/> 
+          </view>
+          <text>{{name}}</text>
+      </view>
+      <view class="audio-right">
+        <text class="h6">用你的语言抓住学生</text>
+        <view class="audio-msg">
+           <view class="play" catchtap="audioPlay" hidden="{{isplay}}">
+            <image src="/assets/images/1.png" mode="widthFix"/>
+          </view>
+          <view class="play" catchtap="audioPause" hidden="{{!isplay}}">
+            <image src="/assets/images/2.png" mode="widthFix" />
+          </view>
+          <progress percent="{{audioPress}}" stroke-width="3"/>
+          <text>05:21</text>
+          <image src="/assets/images/3.png"  class="shu" mode="widthFix" />
+        </view>
+        <view class="applause">
+         <image src="/assets/images/4.png" mode="widthFix"/>
+         <text>232人鼓掌</text> <text>已听完</text>
+        </view>
+      </view>
+    </view>
+     <!-- audio-item -->
+    <view class="audio-item" bindtap="todetails">
+     <audio  src="{{src}}" id="myAudio" controls loop bindtimeupdate="audioPress">
+      </audio> 
+      <view class="audio-left">
+          <view class="audio-img">
+               <image src="/assets/images/img2.png" mode="widthFix"/> 
+          </view>
+          <text>{{name}}</text>
+      </view>
+      <view class="audio-right">
+        <text class="h6">用你的语言抓住学生</text>
+        <view class="audio-msg">
+           <view class="play" catchtap="audioPlay" hidden="{{isplay}}">
+            <image src="/assets/images/1.png" mode="widthFix"/>
+          </view>
+          <view class="play" catchtap="audioPause" hidden="{{!isplay}}">
+            <image src="/assets/images/2.png" mode="widthFix" />
+          </view>
+          <progress percent="{{audioPress}}" stroke-width="3"/>
+          <text>05:21</text>
+          <image src="/assets/images/3.png"  class="shu" mode="widthFix" />
+        </view>
+        <view class="applause">
+         <image src="/assets/images/4.png" mode="widthFix"/>
+         <text>232人鼓掌</text> <text>已听完</text>
+        </view>
+      </view>
+    </view>
+     <!-- audio-item -->
+    <view class="audio-item" bindtap="todetails">
+     <audio  src="{{src}}" id="myAudio" controls loop bindtimeupdate="audioPress">
+      </audio> 
+      <view class="audio-left">
+          <view class="audio-img">
+               <image src="/assets/images/img2.png" mode="widthFix"/> 
+          </view>
+          <text>{{name}}</text>
+      </view>
+      <view class="audio-right">
+        <text class="h6">用你的语言抓住学生</text>
+        <view class="audio-msg">
+           <view class="play" catchtap="audioPlay" hidden="{{isplay}}">
+            <image src="/assets/images/1.png" mode="widthFix"/>
+          </view>
+          <view class="play" catchtap="audioPause" hidden="{{!isplay}}">
+            <image src="/assets/images/2.png" mode="widthFix" />
+          </view>
+          <progress percent="{{audioPress}}" stroke-width="3"/>
+          <text>05:21</text>
+          <image src="/assets/images/3.png"  class="shu" mode="widthFix" />
+        </view>
+        <view class="applause">
+         <image src="/assets/images/4.png" mode="widthFix"/>
+         <text>232人鼓掌</text> <text>已听完</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- loading -->
+  <view class="loading">
+       <image src='/assets/images/loading.gif' mode='widthFix'></image>
+  </view>
+  <!--share  -->
+  <view class="share">
+     <image src='/assets/images/8.png' mode='widthFix'></image>
+  </view>
+  <!-- transmit -->
+  <view class="transmit">
+    <view class="transmit-paly">
+       <view class="palys" hidden="{{isplay}}" bindtap="audioPlay">
+          <image src='/assets/images/7.png'   mode='widthFix'></image>
+       </view>
+       <view class="palys" hidden="{{!isplay}}">
+           <image src='/assets/images/6.png' bindtap="audioPause" mode='widthFix'></image>
+       </view>
+    </view>
+    <view class="transmit-msg" >
+       <view>用你的语言抓住学生</view>
+       <text>吴晓波</text>
+    </view>
+    <view class="transmit-show">
+      <image src='/assets/images/5.png' mode='widthFix'></image>
+    </view>
+  </view>
+</view>
+ </scroll-view>
