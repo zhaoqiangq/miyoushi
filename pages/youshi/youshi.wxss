@@ -1,3 +1,4 @@
+@import "/common/style/add.wxss";
 /* pages/youshi/youshi.wxss */
 page{
   background: #f8f8f8;

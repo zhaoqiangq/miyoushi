@@ -139,3 +139,7 @@
        <image src='/assets/images/loading.gif' mode='widthFix'></image>
   </view> 
 </scroll-view>
+
+<!-- 遮罩 -->
+<import src="/common/template/add.wxml"/>
+<template is="add" data="{{mask,radioCheckVal,radioCheckValage,radioCheckValsubject,radioCheckValeducation,radioCheckValundergo,radioCheckValgender,radioCheckValpay,radioCheckValregion}}"/>

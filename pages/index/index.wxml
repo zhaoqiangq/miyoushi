@@ -1,5 +1,5 @@
 <!--index.wxml-->
- <scroll-view scroll-y="true" lower-threshold="50" bindscrolltolower="scrolldalist" style='height:100%;'>
+<scroll-view scroll-y="true" lower-threshold="50" bindscrolltolower="scrolldalist" style='height:100%;'>
 <view class="content">
   <!-- banner -->
      <swiper indicator-dots="true"  indicator-color="#809ca0" indicator-active-color="#fff" autoplay="true" interval="1500" duration="500" circular="true">
@@ -155,4 +155,4 @@
     </view>
   </view>
 </view>
- </scroll-view>
+</scroll-view>

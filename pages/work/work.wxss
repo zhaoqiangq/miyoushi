@@ -1,3 +1,4 @@
+@import "/common/style/add.wxss";
 /* pages/work/work.wxss */
 page{
   background: #f8f8f8;
@@ -126,7 +127,7 @@ page{
 .gl{
   margin: 0 10rpx;
 }
-
+/* 
 .addpost{
   position: fixed;
   top: 85rpx;
@@ -220,4 +221,4 @@ border: none;
 }
 .radio-msg .btn-area button.submit{
   	background-color: #99804d;
-}
+} */

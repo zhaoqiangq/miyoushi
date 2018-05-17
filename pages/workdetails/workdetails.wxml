@@ -1,3 +1,4 @@
+<!-- 个人信息 -->
 <view class="msg">
    <view class="title">
    中学语文老师 【6K-8K】
@@ -40,6 +41,7 @@
   
 </view>
 
+<!-- 职位描述 -->
 <view class="describe">
   <view>
     <image src='/assets/images/work12.png' mode='widthFix'></image>
@@ -56,6 +58,7 @@
   </view>
 </view>
 
+<!-- 点击更多展开信息 -->
 <view class="gengduo" wx:if="{{isquanbu}}" >
    <view class="demand">
       <view >
@@ -143,6 +146,7 @@
     </view>
 </view>
 
+<!-- 底部分享/收藏/投递简历 -->
 <view class="footer">
   <view>
     <image src='/assets/images/work15.png' mode='widthFix'></image>

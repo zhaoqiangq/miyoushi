@@ -1,6 +1,6 @@
 <template name="add">
   <!-- 遮罩 -->
-  <view class="addpost" wx:if="{{isadd}}">
+  <view class="addpost" wx:if="{{mask}}">
     <view class="shade" bindtap="isaddhide"></view>
     <view class="but-list">
     <form bindsubmit="formSubmit" bindreset="formReset">

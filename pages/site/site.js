@@ -14,13 +14,13 @@ Page({
   onLoad: function (options) {
   
   },
-
-  radioCheckedChange: function (e) {
-    this.setData({
-      radioCheckVal: e.detail.value
-    })
-  },
   
+  // radioCheckedChange: function (e) {
+  //   this.setData({
+  //     radioCheckVal: e.detail.value
+  //   })
+  // },
+  //切换选项卡
   clickitem(e){
     this.setData({ isitem: e.currentTarget.dataset.id })
   },
