@@ -1,0 +1,294 @@
+/* pages/workdetails/workdetails.wxss */
+page{
+  height: 100%;
+}
+.msg{
+  border-top: 1rpx solid #e2e2e2;
+  border-bottom: 20rpx solid #f8f8f8;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  padding-top: 20rpx; 
+}
+.msg .title{
+  font-size: 40rpx;
+  color: #444444;
+  line-height: 100rpx;
+}
+.msg .title text{
+   font-size: 26rpx;
+   color: #c2c2c2;
+   float: right;
+}
+
+.msg .xinxi{
+  font-size: 30rpx;
+  color: #444444;
+  line-height: 50rpx;
+}
+.msg .xinxi image{
+  width: 30rpx;
+  vertical-align:middle;
+  margin-right: 10rpx;
+}
+.msg .xinxi text{
+  margin-right: 30rpx;
+}
+.msg .fulilsit{
+  margin-top: 20rpx;
+  padding-right: 100rpx;
+  box-sizing: border-box;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid #e2e2e2;
+}
+.msg .fulilsit view{
+  font-size: 26rpx;
+  color: #999999; 
+  display: inline-block;
+  border: solid 1rpx #c2c2c2;
+  padding: 4rpx 8rpx;
+  margin-right: 10rpx;
+  border-radius: 5rpx;
+  margin-bottom: 10rpx;
+}
+
+.msg .fenbei{
+  border-bottom: solid 1rpx #c2c2c2;
+  padding: 20rpx 0;
+}
+.msg .fenbei::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.msg .fenbei>image{
+  width: 120rpx;
+  float: left
+}
+.msg .fenbei .qingbei{
+  float: left;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  color: #646464;
+  line-height: 50rpx;
+  padding-top: 10rpx;
+}
+.msg .fenbei .qingbei view{
+  color: #999999;
+}
+.msg .fenbei .iconleft{
+   width: 23rpx;
+   float: right;
+   margin-top: 35rpx;
+}
+.msg .dizhi image{
+  width: 22rpx;
+  margin-right: 15rpx;
+}
+.msg .dizhi{
+  color: #999999;
+  font-size: 30rpx;
+  line-height: 100rpx;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.msg .dizhi text{
+  color:#333333;
+}
+.describe{
+  border-bottom: 20rpx solid #f8f8f8;
+  padding: 30rpx;
+  box-sizing: border-box; 
+}
+.describe view image{
+  width: 33rpx;
+}
+.describe view{
+  color: #444444;
+  font-size: 30rpx;
+}
+
+.describe .fuli{
+  color: #999999;
+  line-height: 50rpx;
+  margin-top: 20rpx;
+}
+.describe .fuli text{
+  display: block;
+}
+.describe .chakan{
+   margin-top: 30rpx;
+   text-align: center;
+   color: #99804d;
+}
+.describe .chakan image{
+  margin-left: 15rpx;
+}
+
+.gengduo{
+  padding: 30rpx 0;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: #999999;
+  line-height: 50rpx;
+}
+
+.gengduo .demand{
+  padding: 30rpx;
+  box-sizing: border-box;
+  border-bottom: 20rpx solid #f8f8f8;
+  font-size: 30rpx;
+  color: #444444;
+}
+.gengduo .demand image{
+  width: 30rpx
+}
+.gengduo .demand .demand-list view{
+  display: inline-block;
+  color:#c2c2c2;
+  border: 1px solid #c2c2c2;
+  padding: 3rpx 8rpx;
+  border-radius: 5rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+}
+.gengduo .tishi{
+  font-size: 30rpx;
+  color: #444444;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.gengduo .tishi view{
+  color: #999999;
+  line-height: 50rpx;
+}
+.gengduo .tishi image{
+  width: 30rpx;
+}
+.gengduo .yop{
+  margin-top: 30rpx;
+}
+
+.list{
+  background: #f8f8f8;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  padding-bottom: 30rpx;
+}
+.list .list-title{
+  height: 80rpx;
+  position: relative;
+  font-size: 26rpx;
+  color: #c2c2c2;
+  line-height: 80rpx;
+  text-align: center;
+}
+.list .list-title::after{
+  content: "";
+  width: 100%;
+  height: 2rpx;
+  background: #c2c2c2;
+  position: absolute;
+  left: 0;right: 0;
+  top:0;bottom: 0;
+  margin: auto;
+  z-index: 1;
+}
+.list .list-title text{
+  width: 140rpx;
+  position: absolute;
+  left: 0;right: 0;
+  top:0;bottom: 0;
+  margin: auto;
+  z-index: 4;
+  background: #f8f8f8;
+}
+
+.list .item{
+  padding: 30rpx;
+  box-sizing: border-box;
+  background: #fff;
+  margin-top: 20rpx;
+}
+.list .item::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.list .item .item-img{
+  float: left;
+  position: relative;
+}
+.list .item .item-img image{
+  width: 120rpx;
+  float: left;
+}
+.list .item .item-img .icon{
+  width: 36rpx;
+  position: absolute;
+  right: -18rpx;bottom:0;
+  margin: auto;
+}
+.list .item .item-msg{
+  width: 73%;
+  float: left;
+  color: #999999;
+  font-size: 26rpx;
+  margin-left: 40rpx;
+}
+.list .item .item-msg view{
+  line-height: 50rpx;
+}
+.list .item .item-msg view text.span{
+  float: right;
+  color:#ff4e00;
+}
+.list .item .item-msg view text.span.color{
+  color:#e3e3e3;
+}
+.list .item .item-msg .h6{
+  font-size: 30rpx;
+  color: #444;
+}
+.list .item .item-msg image{
+  width: 20rpx;
+  margin-right: 10rpx; 
+}
+.msgs image{
+  margin-right: 15rpx;
+}
+.msg text{
+  margin-right: 20rpx;
+}
+
+.footer{
+  height: 100rpx;
+  border-top:1rpx solid #e2e2e2;
+  background: #fff;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.footer view{
+  width: 100rpx;
+  display: inline-block;
+  font-size: 22rpx;
+  color: #646464;
+  text-align: center;
+}
+.footer view image{
+  width: 50rpx;
+  display: block;
+  margin: 0 auto;
+}
+.footer view.button{
+  width: 500rpx;
+  height: 100%;
+  float: right;
+  background-color: #99804d;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  color:#ffffff;
+}

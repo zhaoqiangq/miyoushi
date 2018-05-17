@@ -1,0 +1,58 @@
+<!--pages/site/site.wxml-->
+<view class="conten">
+  <view class="nav">
+      <view class="{{isitem==1?'active':''}}" data-id="1" bindtap="clickitem">常用&热门</view>
+      <view class="{{isitem==2?'active':''}}" data-id="2" bindtap="clickitem">省</view>
+      <view class="{{isitem==3?'active':''}}" data-id="3" bindtap='clickitem'>市</view>
+      <view class="{{isitem==4?'active':''}}" data-id="4" bindtap='clickitem'>区</view>
+  </view>
+  <view class="inner">
+    <view class="inner-item" wx:if="{{isitem==1}}">
+     <text>常用城市</text>
+     <view class="common">
+       <image src='/assets/images/work08.png' mode="widthFix"></image>
+       成都市
+     </view>
+      <text>热门城市</text>
+      <view class="common">
+         全市
+      </view>
+      <view class="common">
+         锦江区
+      </view>
+      <view class="common">
+         武侯区
+      </view>
+       <view class="common">
+         高新区
+      </view>
+    </view>
+
+    <view class="items" wx:if="{{isitem==2}}" >
+      <view>四川省</view>
+      <view>四川省</view>
+      <view>四川省</view>
+      <view>四川省</view>
+      <view>四川省</view>
+      <view>四川省</view>
+    </view>
+   
+    <view class="items" wx:if="{{isitem==3}}">
+      <view>成都市</view>
+      <view>成都市</view>
+      <view>成都市</view>
+      <view>成都市</view>
+      <view>成都市</view>
+      <view>成都市</view>
+    </view>
+
+     <view class="items" wx:if="{{isitem==4}}">
+      <view>武侯区</view>
+      <view>武侯区</view>
+      <view>武侯区</view>
+      <view>武侯区</view>
+      <view>武侯区</view>
+      <view>武侯区</view>
+    </view>
+  </view>
+</view>

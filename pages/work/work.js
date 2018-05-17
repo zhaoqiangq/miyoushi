@@ -101,6 +101,17 @@ Page({
   //form重置
   formReset: function () {
     console.log('form发生了reset事件')
+  },
+  //切换地区
+  qiehuan(){
+    wx.navigateTo({
+      url: '../site/site'
+    })
+  },
+  //进入详情
+  details(){
+    wx.navigateTo({
+      url: '../workdetails/workdetails'
+    })
   }
-
 })

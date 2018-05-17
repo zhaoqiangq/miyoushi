@@ -1,1 +1,138 @@
 /* pages/youshi/youshi.wxss */
+page{
+  background: #f8f8f8;
+  height: 100%;
+}
+.header{
+  background: #fff;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  height: 85rpx;
+  line-height: 85rpx;
+  font-size: 30rpx;
+}
+.header .add{
+  color: #999999;
+}
+.header image{
+  width: 31rpx;
+  float: right;
+  margin-top: 30rpx; 
+}
+.header text.gg{
+  float: right;
+  color: #c2c2c2;
+  margin: 0 20rpx;
+}
+.header .msg{
+  color: #99804d;
+}
+.header .title{
+  color: #222222;
+  margin-left: 20rpx;
+}
+
+.advertising{
+  position: relative;
+}
+.advertising>image{
+  width: 100%;
+}
+.advertising .close{
+  position: absolute;
+  top:0;right: 0;
+  margin: auto;
+}
+.advertising .close image{
+  width: 50rpx;
+}
+
+.list{
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.list .item{
+  background: #fff;
+  margin-bottom: 20rpx;
+}
+
+.list .item .item-top{
+  padding: 20rpx;
+  padding-top: 50rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #eee;
+}
+.list .item .item-top::after{
+  content:"";
+  clear: both;
+  display: block;
+}
+.list .item .item-top .item-img{
+   width: 120rpx;
+   height: 120rpx;
+   float: left;
+   border-radius: 50%;
+   text-align: center; 
+   position: relative;
+}
+.list .item .item-top .item-img image{
+    width: 100%;
+    border-radius: 50%;
+}
+.list .item .item-top .item-img image.icon{
+    width: 36rpx;
+    position: absolute;
+    right: -18rpx;
+    bottom:10rpx;margin: auto;
+}
+.item-msg{
+  float: left;
+  margin-left: 35rpx;
+  font-size: 30rpx;
+  color: #444;
+  width: 74%;
+}
+.item-msg image{
+    width: 65rpx;
+    margin: 0 15rpx;
+}
+.item-msg .h6{
+   color:#cacaca;
+   font-size: 26rpx;
+}
+.item-msg .h6 text{
+  font-weight: 600;
+  color: #444444;
+  font-size: 35rpx;
+}
+.item-msg .h6 .number{
+  float: right;
+  color: #ff4e00;
+}
+.item-msg .h5{
+  line-height: 40rpx;
+  margin-top: 10rpx;
+  font-size: 30rpx;
+}
+.item-msg .h4{
+  color: #999;
+  line-height: 40rpx;
+  margin-top: 10rpx;
+  overflow: hidden;
+text-overflow:ellipsis;
+white-space: nowrap;
+
+}
+.item-bottom{
+   padding: 20rpx;
+  box-sizing: border-box;
+}
+.item-bottom view{
+  font-size: 30rpx;
+  background: #f6f6f6;
+  color: #646464;
+  padding:5rpx 10rpx;
+  display: inline-block;
+  margin-right: 15rpx;
+  border-radius: 25rpx;
+}

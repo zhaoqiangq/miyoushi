@@ -1,0 +1,94 @@
+.addpost{
+  position: fixed;
+  top: 85rpx;
+  left: 0;right: 0;
+  bottom:0;
+  margin: auto;
+}
+.addpost .shade{
+  position: absolute;
+  top: 0; bottom:0;
+  left: 0;right: 0;
+  margin: auto;
+  background: rgba(0,0,0,0.5);
+}
+.but-list{
+  position: absolute;
+  top: 0; bottom:240rpx;
+  left: 0;right: 0;
+  margin: auto;
+  background: #fff;
+  border-top: 1px solid #e2e2e2; 
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  font-size: 26rpx;
+  color: #999999;
+  overflow-y: auto;
+}
+.but-list radio-group{
+  width: 100%;
+  padding: 30rpx 0;
+}
+.but-list radio-group label{
+   width: 147rpx;
+	 height: 68rpx;
+	 border-radius: 5rpx;
+	 border: solid 1rpx #c2c2c2;
+   font-size: 30rpx;
+   color: #646464;
+   text-align: center;
+   line-height: 68rpx;
+   display: inline-block;
+   margin-right: 20rpx;
+   margin-bottom: 20rpx;
+}
+.but-list radio-group label.active{
+   border: solid 1rpx #99804d;
+   color: #99804d;
+}
+.but-list radio-group.radio-color label{
+   background-color: #f2f2f2;
+ 	 border: solid 1rpx #f2f2f2;
+}
+.but-list radio-group.radio-color label.active{
+   background-color: #99804d;
+   color: #fff;
+ 	 border: solid 1rpx #99804d;
+}
+
+.radio-msg{
+  border-top:1rpx solid #e2e2e2; 
+  line-height: 80rpx;
+  font-size: 26rpx; 
+}
+.radio-msg text{
+  margin-left: 20rpx;
+  color:#99804d;
+}
+.radio-msg .btn-area{
+  width: 220rpx;
+  height: 50rpx;
+  float: right;
+  border-radius: 25rpx;
+	border: solid 1rpx #c2c2c2;
+   margin-top: 15rpx; 
+  overflow: hidden;
+}
+.radio-msg .btn-area button{
+  width: 50%;
+  height: 100%;
+  display: block;
+  float: left;
+  font-size: 26rpx;
+  line-height: 50rpx;
+  background-color: #b5a480;
+  border-color: #ffffff;
+  border-radius: 0rpx;
+  color: #fff;
+}
+.radio-msg .btn-area button::after{
+border: none;
+}
+.radio-msg .btn-area button.submit{
+  	background-color: #99804d;
+}

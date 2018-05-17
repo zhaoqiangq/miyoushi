@@ -1,2 +1,141 @@
-<!--pages/youshi/youshi.wxml-->
-<text>pages/youshi/youshi.wxml</text>
+<scroll-view scroll-y="true" lower-threshold="50" bindscrolltolower="scrolldalist" style='height:100%;'>
+<!-- header -->  
+<view class="header">
+   <text class="add" wx:if="{{false}}">请添加意向职位</text>
+   <text class="msg">中学语文老师</text>
+   <text class="title">小学数学老师</text>
+   <image src='/assets/images/work02.png' mode="widthFix"></image>
+   <text class="gg">|</text>
+   <image src='/assets/images/work01.png' mode="widthFix" bindtap="isaddshow"></image>
+</view>  
+<!-- 广告位 -->
+ <view class="advertising">
+  <image src='/assets/images/workimg.jpg' mode='widthFix' wx:if="{{isadv}}"></image>
+  <view class="close" bindtap='closeadv'>
+    <image src='/assets/images/work03.png' mode='widthFix'></image>
+  </view>
+</view> 
+
+<!--数据  -->
+<view class="list">
+  <view class="item">
+     <view class="item-top">
+       <view class="item-img">
+          <image src='/assets/images/img2.png' mode='widthFix'></image>
+          <image class="icon" src='/assets/images/shishuo1.png' mode='widthFix'></image>
+       </view>
+       <view class="item-msg">
+          <view class="h6">
+             <text class="title">张输入</text>
+              <image src='/assets/images/shishuo2.png' mode='widthFix'></image>
+              1个小时活跃
+              <text class="number">6K-10K</text>
+          </view>
+          <view class="h5">小学语文老师</view>
+          <view class="h4">的撒上啊大叔多少阿斯顿的撒上啊大叔多少阿斯顿的撒上啊大叔多少阿斯顿</view>
+       </view>
+      </view>
+      <view class="item-bottom">
+         <view>名校毕业</view>
+          <view>重点学校任教经验</view>
+      </view>
+   </view>
+
+     <view class="item">
+     <view class="item-top">
+       <view class="item-img">
+          <image src='/assets/images/img2.png' mode='widthFix'></image>
+          <image class="icon" src='/assets/images/shishuo1.png' mode='widthFix'></image>
+       </view>
+       <view class="item-msg">
+          <view class="h6">
+             <text class="title">张输入</text>
+              <image src='/assets/images/shishuo2.png' mode='widthFix'></image>
+              1个小时活跃
+              <text class="number">6K-10K</text>
+          </view>
+          <view class="h5">小学语文老师</view>
+          <view class="h4">的撒上啊大叔多少阿斯顿的撒上啊大叔多少阿斯顿的撒上啊大叔多少阿斯顿</view>
+       </view>
+      </view>
+      <view class="item-bottom">
+         <view>名校毕业</view>
+          <view>重点学校任教经验</view>
+      </view>
+   </view>
+
+     <view class="item">
+     <view class="item-top">
+       <view class="item-img">
+          <image src='/assets/images/img2.png' mode='widthFix'></image>
+          <image class="icon" src='/assets/images/shishuo1.png' mode='widthFix'></image>
+       </view>
+       <view class="item-msg">
+          <view class="h6">
+             <text class="title">张输入</text>
+              <image src='/assets/images/shishuo2.png' mode='widthFix'></image>
+              1个小时活跃
+              <text class="number">6K-10K</text>
+          </view>
+          <view class="h5">小学语文老师</view>
+          <view class="h4">的撒上啊大叔多少阿斯顿的撒上啊大叔多少阿斯顿的撒上啊大叔多少阿斯顿</view>
+       </view>
+      </view>
+      <view class="item-bottom">
+         <view>名校毕业</view>
+          <view>重点学校任教经验</view>
+      </view>
+   </view>
+
+     <view class="item">
+     <view class="item-top">
+       <view class="item-img">
+          <image src='/assets/images/img2.png' mode='widthFix'></image>
+          <image class="icon" src='/assets/images/shishuo1.png' mode='widthFix'></image>
+       </view>
+       <view class="item-msg">
+          <view class="h6">
+             <text class="title">张输入</text>
+              <image src='/assets/images/shishuo2.png' mode='widthFix'></image>
+              1个小时活跃
+              <text class="number">6K-10K</text>
+          </view>
+          <view class="h5">小学语文老师</view>
+          <view class="h4">的撒上啊大叔多少阿斯顿的撒上啊大叔多少阿斯顿的撒上啊大叔多少阿斯顿</view>
+       </view>
+      </view>
+      <view class="item-bottom">
+         <view>名校毕业</view>
+          <view>重点学校任教经验</view>
+      </view>
+   </view>
+
+     <view class="item">
+     <view class="item-top">
+       <view class="item-img">
+          <image src='/assets/images/img2.png' mode='widthFix'></image>
+          <image class="icon" src='/assets/images/shishuo1.png' mode='widthFix'></image>
+       </view>
+       <view class="item-msg">
+          <view class="h6">
+             <text class="title">张输入</text>
+              <image src='/assets/images/shishuo2.png' mode='widthFix'></image>
+              1个小时活跃
+              <text class="number">6K-10K</text>
+          </view>
+          <view class="h5">小学语文老师</view>
+          <view class="h4">的撒上啊大叔多少阿斯顿的撒上啊大叔多少阿斯顿的撒上啊大叔多少阿斯顿</view>
+       </view>
+      </view>
+      <view class="item-bottom">
+         <view>名校毕业</view>
+          <view>重点学校任教经验</view>
+      </view>
+   </view>
+</view>
+
+<!-- loading -->
+<view class="loading">
+       <image src='/assets/images/loading.gif' mode='widthFix'></image>
+  </view> 
+</scroll-view>

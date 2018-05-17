@@ -1,0 +1,66 @@
+/* pages/site/site.wxss */
+page{
+  background: #f8f8f8;
+  height: 100%;
+}
+.conten{
+  height: 100%;
+  padding-left: 240rpx;
+  box-sizing: border-box;
+}
+.conten .nav{
+  width: 240rpx;
+  position: absolute;
+  top: 0;bottom: 0;
+  left: 0;margin: auto;
+  background: #fff;
+}
+.conten .nav view{
+   width: 100%;
+   text-align: center;
+   line-height: 110rpx;
+   color:#646464;
+   font-size: 26rpx;
+}
+.conten .nav view.active{
+   background: #f8f8f8;
+   color: #b5a480;
+}
+.conten .inner{
+   width: 100%;
+   padding-left: 40rpx;
+   padding-top: 30rpx;
+   box-sizing: border-box;
+}
+.conten .inner text{
+  color: #646464;
+  font-size: 26rpx;
+  display: block;
+}
+.conten .inner .common{
+   width: 190rpx;
+   height: 50rpx;
+   line-height: 50rpx;
+   font-size: 26rpx;
+   color: #333333;
+   text-align: center;
+   border: 1px solid #ddd;
+   border-radius: 10rpx;
+   display: inline-block;
+   margin: 15rpx;
+   background: #fff;
+   margin-left: 0;
+   margin-right: 30rpx;
+}
+.conten .inner .common image{
+  width: 25rpx; 
+  vertical-align:middle;
+}
+
+.conten .inner .items view{
+  width: 100%;
+  line-height: 80rpx;
+  text-align: left;
+  font-size: 30rpx;
+  color: #333333;
+}

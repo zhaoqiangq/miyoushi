@@ -1,0 +1,158 @@
+<view class="msg">
+   <view class="title">
+   中学语文老师 【6K-8K】
+   <text>1小时前活跃</text>
+   </view>
+
+   <view class="xinxi">
+      <image class="site" src='/assets/images/work11.png' mode='widthFix'></image>
+      <text>全职</text>
+      <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+      <text>硕士</text>
+      <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+      <text>3-5年</text>
+   </view>
+
+   <view class="fulilsit">
+      <view>五险一金</view>
+       <view>周末双休</view>
+        <view>周末双休</view>
+       <view>五险一金</view>
+       <view>周末双休</view>
+        <view>周末双休</view>
+        <view>周末双休</view>
+        <view>周末双休</view>
+   </view>
+
+   <view class="fenbei">
+      <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+      <view class="qingbei">
+         <text>轻备学院</text>
+         <view>培训机构 | 50-100人</view>
+      </view>
+      <image class="iconleft" src='/assets/images/work09.png' mode='widthFix'></image>
+   </view>
+
+   <view class="dizhi">
+      <image src='/assets/images/work10.png' mode='widthFix'></image>
+      <text>高新区 美年广场</text>·成都市高新区天府大道1388号...
+   </view>
+  
+</view>
+
+<view class="describe">
+  <view>
+    <image src='/assets/images/work12.png' mode='widthFix'></image>
+    职位描述
+  </view>
+  <view class="fuli">
+  <text>薪资福利：</text>
+    无责底薪5000-7000元，美国上市公司大平台，独立办公室，无需出差及外出，五险一金，高提成，好出单，  快速晋升。工作地点：北京16家分公司就近上班，全国40个城市均可分配。
+  </view>
+
+  <view class="chakan" bindtap='clickquanbu'>
+    <text>查看全部</text>
+    <image src='/assets/images/work13.png' mode='widthFix'></image>
+  </view>
+</view>
+
+<view class="gengduo" wx:if="{{isquanbu}}" >
+   <view class="demand">
+      <view >
+         <image src='/assets/images/work14.png' mode='widthFix'></image>
+         技能要求
+      </view>
+      <view class="demand-list">
+         <view>4级英语水平</view>
+      </view>
+   </view>
+
+
+    <view class="tishi">
+       <image src='/assets/images/work18.png' mode='widthFix'></image>
+       温馨提示
+        <view class="yop">
+    若用人单位存在虚假招聘信息，向求职者收取财物，扣押或以保管为名索要身份证、毕业证及其他证件等行为，请您提高警惕并注意保护个人信息！
+    </view>
+    </view>
+   
+
+    <view class="list">
+        <view class="list-title">
+           <text>推荐职位</text>
+        </view>
+
+      <view class="item">
+        <view class="item-img">
+            <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+            <image src='/assets/images/work07.png' class="icon" mode='widthFix'></image>
+        </view>
+        <view class="item-msg">
+            <view class="h6">初中语文老师 <text class="span ">6k-10k</text></view>
+            <view>轻备学院 <text class="gl">|</text>全职 <text class="span color">2个小时前活跃</text></view>
+            <view class="msgs">  
+               <image class="site" src='/assets/images/work04.png' mode='widthFix'></image>
+               <text> 成都 高新区</text>
+               <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+               <text>硕士</text>
+                <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+               <text>3-5年</text>
+            </view> 
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="item-img">
+            <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+            <image src='/assets/images/work07.png' class="icon" mode='widthFix'></image>
+        </view>
+        <view class="item-msg">
+            <view class="h6">初中语文老师 <text class="span ">6k-10k</text></view>
+            <view>轻备学院 <text class="gl">|</text>全职 <text class="span color">2个小时前活跃</text></view>
+            <view class="msgs">  
+               <image class="site" src='/assets/images/work04.png' mode='widthFix'></image>
+               <text> 成都 高新区</text>
+               <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+               <text>硕士</text>
+                <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+               <text>3-5年</text>
+            </view> 
+        </view>
+      </view>
+
+      <view class="item">
+        <view class="item-img">
+            <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+            <image src='/assets/images/work07.png' class="icon" mode='widthFix'></image>
+        </view>
+        <view class="item-msg">
+            <view class="h6">初中语文老师 <text class="span ">6k-10k</text></view>
+            <view>轻备学院 <text class="gl">|</text>全职 <text class="span color">2个小时前活跃</text></view>
+            <view class="msgs">  
+               <image class="site" src='/assets/images/work04.png' mode='widthFix'></image>
+               <text> 成都 高新区</text>
+               <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+               <text>硕士</text>
+                <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+               <text>3-5年</text>
+            </view> 
+        </view>
+      </view>
+
+      
+    </view>
+</view>
+
+<view class="footer">
+  <view>
+    <image src='/assets/images/work15.png' mode='widthFix'></image>
+    收藏
+  </view>
+  <view>
+    <image src='/assets/images/work16.png' mode='widthFix'></image>
+    分享
+  </view>
+  <view class="button">
+      投递简历
+  </view>
+</view>

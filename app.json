@@ -1,10 +1,12 @@
 {
   "pages": [
-    "pages/work/work",
     "pages/index/index",
     "pages/youshi/youshi",
     "pages/my/my",
-    "pages/details/details"    
+    "pages/details/details",
+    "pages/work/work",
+    "pages/site/site",
+    "pages/workdetails/workdetails"
   ],
   "window": {
     "backgroundTextStyle": "light",
