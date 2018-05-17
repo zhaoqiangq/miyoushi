@@ -5,7 +5,21 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    //关闭广告位开关
+    isadv:true,  
+    //添加职位开关
+    isadd:false,
+    //页面遮罩滚动开关
+    mask:false,
+    //radio值
+    radioCheckVal:"最新",    
+    radioCheckValage:"不限",
+    radioCheckValsubject:"不限",
+    radioCheckValeducation:"不限",
+    radioCheckValundergo:"不限",
+    radioCheckValgender:"不限",
+    radioCheckValpay:"不限",
+    radioCheckValregion:"不限"
   },
 
   /**
@@ -16,51 +30,77 @@ Page({
   },
 
   /**
-   * 生命周期函数--监听页面初次渲染完成
+   * 关闭广告位
    */
-  onReady: function () {
-  
+  closeadv: function () {
+    this.setData({ isadv:false})
   },
-
   /**
-   * 生命周期函数--监听页面显示
+   * 添加职位
    */
-  onShow: function () {
-  
+  isaddshow: function () {
+    this.setData({ isadd: true, mask: true})
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
+   /**
+   * 点击遮罩关闭添加职位
    */
-  onHide: function () {
-  
+  isaddhide:function () {
+    this.setData({ isadd: false, mask:false})
   },
-
   /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
+  * 请求下一页数据
+  */
+  scrolldalist() {
+    console.log('1111');
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
+  //radioChecked 函数
+  radioCheckedChange: function (e) {
+    this.setData({
+      radioCheckVal: e.detail.value
+    })
   },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
+  radioage: function (e) {
+    this.setData({
+      radioCheckValage: e.detail.value
+    })
   },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
+  radiosubject: function (e) {
+    this.setData({
+      radioCheckValsubject: e.detail.value
+    })
+  },
+  radioeducation: function (e) {
+    this.setData({
+      radioCheckValeducation: e.detail.value
+    })
+  },
+  radioundergo: function (e) {
+    this.setData({
+      radioCheckValundergo: e.detail.value
+    })
+  },
+  radiogender: function (e) {
+    this.setData({
+      radioCheckValgender: e.detail.value
+    })
+  },
+  radiopay: function (e) {
+    this.setData({
+      radioCheckValpay: e.detail.value
+    })
+  },
+  radioregion: function (e) {
+    this.setData({
+      radioCheckValregion: e.detail.value
+    })
+  },
+  //form提交
+  formSubmit: function (e) {
+    console.log('form发生了submit事件，携带数据为：', e.detail.value)
+  },
+  //form重置
+  formReset: function () {
+    console.log('form发生了reset事件')
   }
+
 })

@@ -129,3 +129,12 @@ audio{
   height: 0;
   overflow: hidden;
 }
+.share{
+  position: fixed;
+  bottom:150rpx;
+  right: 0;margin: auto;
+
+}
+.share image{
+  width: 173rpx;
+}

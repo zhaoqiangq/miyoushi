@@ -1,2 +1,365 @@
 <!--pages/work/work.wxml-->
-<text>pages/work/work.wxml</text>
+<scroll-view scroll-y="true" lower-threshold="50" bindscrolltolower="scrolldalist" style='height:100%;'>
+<view class="content {{mask?'active':''}}" >
+<!-- header -->  
+  <view class="header">
+   <text class="add" wx:if="{{false}}">请添加意向职位</text>
+   <text class="msg">中学语文老师</text>
+   <text class="title">小学数学老师</text>
+   <image src='/assets/images/work02.png' mode="widthFix"></image>
+   <text class="gg">|</text>
+   <image src='/assets/images/work01.png' mode="widthFix" bindtap="isaddshow"></image>
+</view>  
+<!-- 广告位 -->
+ <view class="advertising">
+  <image src='/assets/images/workimg.jpg' mode='widthFix' wx:if="{{isadv}}"></image>
+  <view class="close" bindtap='closeadv'>
+    <image src='/assets/images/work03.png' mode='widthFix'></image>
+  </view>
+</view> 
+<!-- list数据 -->
+<view class="list">
+    <view class="item">
+        <view class="item-img">
+            <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+            <image src='/assets/images/work07.png' class="icon" mode='widthFix'></image>
+        </view>
+        <view class="item-msg">
+            <view class="h6">初中语文老师 <text class="span ">6k-10k</text></view>
+            <view>轻备学院 <text class="gl">|</text>全职 <text class="span color">2个小时前活跃</text></view>
+            <view class="msg">  
+               <image class="site" src='/assets/images/work04.png' mode='widthFix'></image>
+               <text> 成都 高新区</text>
+               <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+               <text>硕士</text>
+                <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+               <text>3-5年</text>
+            </view> 
+        </view>
+    </view>
+
+     <view class="item">
+        <view class="item-img">
+            <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+            <image src='/assets/images/work07.png' class="icon" mode='widthFix'></image>
+        </view>
+        <view class="item-msg">
+            <view class="h6">初中语文老师 <text class="span ">6k-10k</text></view>
+            <view>轻备学院 <text class="gl">|</text>全职 <text class="span color">2个小时前活跃</text></view>
+            <view class="msg">  
+               <image class="site" src='/assets/images/work04.png' mode='widthFix'></image>
+               <text> 成都 高新区</text>
+               <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+               <text>硕士</text>
+                <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+               <text>3-5年</text>
+            </view> 
+        </view>
+    </view>
+
+     <view class="item">
+        <view class="item-img">
+            <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+            <image src='/assets/images/work07.png' class="icon" mode='widthFix'></image>
+        </view>
+        <view class="item-msg">
+            <view class="h6">初中语文老师 <text class="span ">6k-10k</text></view>
+            <view>轻备学院 <text class="gl">|</text>全职 <text class="span color">2个小时前活跃</text></view>
+            <view class="msg">  
+               <image class="site" src='/assets/images/work04.png' mode='widthFix'></image>
+               <text> 成都 高新区</text>
+               <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+               <text>硕士</text>
+                <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+               <text>3-5年</text>
+            </view> 
+        </view>
+    </view>
+
+     <view class="item">
+        <view class="item-img">
+            <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+            <image src='/assets/images/work07.png' class="icon" mode='widthFix'></image>
+        </view>
+        <view class="item-msg">
+            <view class="h6">初中语文老师 <text class="span ">6k-10k</text></view>
+            <view>轻备学院 <text class="gl">|</text>全职 <text class="span color">2个小时前活跃</text></view>
+            <view class="msg">  
+               <image class="site" src='/assets/images/work04.png' mode='widthFix'></image>
+               <text> 成都 高新区</text>
+               <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+               <text>硕士</text>
+                <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+               <text>3-5年</text>
+            </view> 
+        </view>
+    </view>
+
+         <view class="item">
+        <view class="item-img">
+            <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+            <image src='/assets/images/work07.png' class="icon" mode='widthFix'></image>
+        </view>
+        <view class="item-msg">
+            <view class="h6">初中语文老师 <text class="span ">6k-10k</text></view>
+            <view>轻备学院 <text class="gl">|</text>全职 <text class="span color">2个小时前活跃</text></view>
+            <view class="msg">  
+               <image class="site" src='/assets/images/work04.png' mode='widthFix'></image>
+               <text> 成都 高新区</text>
+               <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+               <text>硕士</text>
+                <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+               <text>3-5年</text>
+            </view> 
+        </view>
+    </view>
+
+     <view class="item">
+        <view class="item-img">
+            <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+            <image src='/assets/images/work07.png' class="icon" mode='widthFix'></image>
+        </view>
+        <view class="item-msg">
+            <view class="h6">初中语文老师 <text class="span ">6k-10k</text></view>
+            <view>轻备学院 <text class="gl">|</text>全职 <text class="span color">2个小时前活跃</text></view>
+            <view class="msg">  
+               <image class="site" src='/assets/images/work04.png' mode='widthFix'></image>
+               <text> 成都 高新区</text>
+               <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+               <text>硕士</text>
+                <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+               <text>3-5年</text>
+            </view> 
+        </view>
+    </view>
+
+     <view class="item">
+        <view class="item-img">
+            <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+            <image src='/assets/images/work07.png' class="icon" mode='widthFix'></image>
+        </view>
+        <view class="item-msg">
+            <view class="h6">初中语文老师 <text class="span ">6k-10k</text></view>
+            <view>轻备学院 <text class="gl">|</text>全职 <text class="span color">2个小时前活跃</text></view>
+            <view class="msg">  
+               <image class="site" src='/assets/images/work04.png' mode='widthFix'></image>
+               <text> 成都 高新区</text>
+               <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+               <text>硕士</text>
+                <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+               <text>3-5年</text>
+            </view> 
+        </view>
+    </view>
+</view>
+<!-- loading -->
+  <view class="loading">
+       <image src='/assets/images/loading.gif' mode='widthFix'></image>
+  </view> 
+</view>
+</scroll-view>
+
+<!-- 遮罩 -->
+<view class="addpost" wx:if="{{isadd}}">
+    <view class="shade" bindtap="isaddhide"></view>
+    <view class="but-list">
+    <form bindsubmit="formSubmit" bindreset="formReset">
+       <radio-group class="radio-group" name="Change" bindchange="radioCheckedChange">
+         <label class="radio" class="{{radioCheckVal=='最新'?'active':''}}">
+             <radio value="最新" checked='true' hidden="true"/>
+            最新
+         </label>
+         <label class="radio" class="{{radioCheckVal=='推荐'?'active':''}}" >
+             <radio value="推荐" hidden="true"/>
+            推荐
+         </label>
+      </radio-group> 
+      <view>年级</view>
+       <radio-group class="radio-color" bindchange="radioage">
+         <label class="radio" class="{{radioCheckValage=='不限'?'active':''}}">
+             <radio value="不限" checked='true'  hidden="true"/>
+            不限
+         </label>
+         <label class="radio" class="{{radioCheckValage=='幼儿'?'active':''}}" >
+             <radio value="幼儿" hidden="true"/>
+            幼儿
+         </label>
+          <label class="radio" class="{{radioCheckValage=='小学'?'active':''}}">
+             <radio value="小学"  hidden="true"/>
+            小学
+         </label>
+         <label class="radio" class="{{radioCheckValage=='初中'?'active':''}}" >
+             <radio value="初中" hidden="true"/>
+            初中
+         </label>
+          <label class="radio" class="{{radioCheckValage=='高中'?'active':''}}">
+             <radio value="高中"  hidden="true"/>
+            高中
+         </label>
+         <label class="radio" class="{{radioCheckValage=='高考'?'active':''}}" >
+             <radio value="高考" hidden="true"/>
+            高考
+         </label>
+      </radio-group>
+       <view>学科</view>
+       <radio-group class="radio-color" name="subject" bindchange="radiosubject">
+         <label class="radio" class="{{radioCheckValsubject=='不限'?'active':''}}">
+             <radio value="不限" checked='true'  hidden="true"/>
+            不限
+         </label>
+         <label class="radio" class="{{radioCheckValsubject=='语文'?'active':''}}" >
+             <radio value="语文" hidden="true"/>
+            语文
+         </label>
+          <label class="radio" class="{{radioCheckValsubject=='数学'?'active':''}}">
+             <radio value="数学"  hidden="true"/>
+            数学
+         </label>
+         <label class="radio" class="{{radioCheckValsubject=='英语'?'active':''}}" >
+             <radio value="英语" hidden="true"/>
+            英语
+         </label>
+          <label class="radio" class="{{radioCheckValsubject=='生物'?'active':''}}">
+             <radio value="生物"  hidden="true"/>
+            生物
+         </label>
+         <label class="radio" class="{{radioCheckValsubject=='地理'?'active':''}}" >
+             <radio value="地理" hidden="true"/>
+            地理
+         </label>
+           <label class="radio" class="{{radioCheckValsubject=='化学'?'active':''}}" >
+             <radio value="化学" hidden="true"/>
+            化学
+         </label>
+           <label class="radio" class="{{radioCheckValsubject=='体育'?'active':''}}" >
+             <radio value="体育" hidden="true"/>
+            体育
+        </label>
+           <label class="radio" class="{{radioCheckValsubject=='钢琴'?'active':''}}" >
+             <radio value="钢琴" hidden="true"/>
+            钢琴
+         </label>
+           <label class="radio" class="{{radioCheckValsubject=='音乐'?'active':''}}" >
+             <radio value="音乐" hidden="true"/>
+            音乐
+         </label>
+           <label class="radio" class="{{radioCheckValsubject=='舞蹈'?'active':''}}" >
+             <radio value="舞蹈" hidden="true"/>
+            舞蹈
+         </label>
+              <label class="radio" class="{{radioCheckValsubject=='政治'?'active':''}}" >
+             <radio value="政治" hidden="true"/>
+            政治
+         </label> 
+      </radio-group>
+
+        <view>学历</view>
+       <radio-group class="radio-color" name="education" bindchange="radioeducation">
+         <label class="radio" class="{{radioCheckValeducation=='不限'?'active':''}}">
+             <radio value="不限" checked='true'  hidden="true"/>
+            不限
+         </label>
+         <label class="radio" class="{{radioCheckValeducation=='本科'?'active':''}}" >
+             <radio value="本科" hidden="true"/>
+            本科
+         </label>
+          <label class="radio" class="{{radioCheckValeducation=='研究生'?'active':''}}">
+             <radio value="研究生"  hidden="true"/>
+            研究生
+         </label>
+         <label class="radio" class="{{radioCheckValeducation=='博士'?'active':''}}" >
+             <radio value="博士" hidden="true"/>
+            博士
+         </label>
+      </radio-group> 
+
+         <view>经验</view>
+       <radio-group class="radio-color" name="undergo" bindchange="radioundergo">
+         <label class="radio" class="{{radioCheckValundergo=='不限'?'active':''}}">
+             <radio value="不限" checked='true'  hidden="true"/>
+            不限
+         </label>
+         <label class="radio" class="{{radioCheckValundergo=='1年以下'?'active':''}}" >
+             <radio value="1年以下" hidden="true"/>
+            本科
+         </label>
+          <label class="radio" class="{{radioCheckValundergo=='1-3年'?'active':''}}">
+             <radio value="1-3年"  hidden="true"/>
+            研究生
+         </label>
+         <label class="radio" class="{{radioCheckValundergo=='3-5年'?'active':''}}" >
+             <radio value="3-5年" hidden="true"/>
+            3-5年
+         </label>
+         <label class="radio" class="{{radioCheckValundergo=='5年以上'?'active':''}}" >
+             <radio value="5年以上" hidden="true"/>
+            5年以上
+         </label>
+      </radio-group>
+
+       <view>性别</view>
+       <radio-group class="radio-color" name="gender" bindchange="radiogender">
+         <label class="radio" class="{{radioCheckValgender=='不限'?'active':''}}">
+             <radio value="不限" checked='true'  hidden="true"/>
+            不限
+         </label>
+         <label class="radio" class="{{radioCheckValgender=='男'?'active':''}}" >
+             <radio value="男" hidden="true"/>
+            男
+         </label>
+          <label class="radio" class="{{radioCheckValgender=='女'?'active':''}}">
+             <radio value="女"  hidden="true"/>
+            女
+         </label>
+      </radio-group>
+
+        <view>课酬</view>
+       <radio-group class="radio-color" name="pay" bindchange="radiopay">
+         <label class="radio" class="{{radioCheckValpay=='不限'?'active':''}}">
+             <radio value="不限" checked='true'  hidden="true"/>
+            不限
+         </label>
+         <label class="radio" class="{{radioCheckValpay=='5K以下'?'active':''}}" >
+             <radio value="5K以下" hidden="true"/>
+            5K以下
+         </label>
+          <label class="radio" class="{{radioCheckValpay=='5K-7K'?'active':''}}">
+             <radio value="5K-7K"  hidden="true"/>
+            5K-7K
+         </label>
+          <label class="radio" class="{{radioCheckValpay=='7K-10K'?'active':''}}">
+             <radio value="7K-10K"  hidden="true"/>
+            7K-10K
+         </label>
+      </radio-group>
+
+        <view>区域</view>
+       <radio-group class="radio-color" name="region" bindchange="radioregion">
+         <label class="radio" class="{{radioCheckValregion=='不限'?'active':''}}">
+             <radio value="不限" checked='true'  hidden="true"/>
+            不限
+         </label>
+         <label class="radio" class="{{radioCheckValregion=='锦江区'?'active':''}}" >
+             <radio value="锦江区" hidden="true"/>
+            锦江区
+         </label>
+         <label class="radio" class="{{radioCheckValregion=='青羊区'?'active':''}}" >
+             <radio value="青羊区" hidden="true"/>
+            青羊区
+         </label>
+           <label class="radio" class="{{radioCheckValregion=='成华区'?'active':''}}" >
+             <radio value="成华区" hidden="true"/>
+            成华区
+         </label>
+      </radio-group>
+
+       <view class="radio-msg">
+        当前：成都 高新区   <text>切换</text> 
+        <view class="btn-area">
+          <button formType="reset">重置</button>
+          <button formType="submit" class="submit">确认</button>
+        </view>        
+       </view>
+       </form>
+    </view>
+</view>

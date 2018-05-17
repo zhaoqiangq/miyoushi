@@ -33,7 +33,6 @@ Page({
     this.setData({
       audioPress: progress
     })
-  },
- 
-  
+  }
+
 })
