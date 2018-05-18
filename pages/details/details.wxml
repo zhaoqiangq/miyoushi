@@ -81,4 +81,5 @@
   <!--share  -->
   <view class="share">
      <image src='/assets/images/8.png' mode='widthFix'></image>
+     <button></button>
   </view>

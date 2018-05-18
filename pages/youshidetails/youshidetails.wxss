@@ -1,0 +1,182 @@
+/* pages/youshidetails/youshidetails.wxss */
+page{
+  height: 100%;
+}
+video{
+  width: 100%;
+  height: 420rpx;
+}
+.msg{
+  padding: 40rpx 40rpx 0 40rpx;
+  box-sizing: border-box;
+}
+.msg .title{
+  border-bottom: 1rpx solid #e2e2e2;
+  color: #444;
+  font-size: 30rpx;
+  padding-bottom: 10rpx;
+}
+.msg .title .name{
+  font-size:40rpx;
+  margin: 10rpx 0;
+  font-weight: 500;
+}
+.msg .title image{
+  width: 30rpx;
+}
+.msg .title .age{
+  line-height: 60rpx;
+}
+.msg .title .xixi{
+  height: 70rpx;
+  line-height: 70rpx;
+  vertical-align:middle;
+}
+.msg .title .xixi image{
+   margin-right: 15rpx;
+}
+.msg .title .xixi text{
+  margin-right: 20rpx;
+}
+.msg .biye{
+  font-size: 30rpx;
+  color:#333333;
+  padding-top: 30rpx;
+  line-height: 50rpx;
+}
+.msg .biye .plays{
+  width: 100%;
+  background-color: #f9f9f9;
+	border: solid 1rpx #c2c2c2;
+  padding: 30rpx;
+  box-sizing: border-box;
+  margin-top: 40rpx;
+}
+.msg .biye .plays view.palleft text{
+  color: #999;
+  float: right;
+}
+.msg .biye .plays view.palvo{
+  color: #999;
+  margin-top: 20rpx;
+}
+.msg .biye .plays view.palvo image{
+  width: 50rpx;
+  float: right;
+}
+
+.msg .geren{
+   font-size: 32rpx;
+   border-bottom: 1rpx solid #e2e2e2;
+   color:#333333;
+   margin-top: 40rpx;
+}
+.msg .geren .dian{
+   position: relative;
+   padding-left: 20rpx;
+   box-sizing: border-box;
+}
+.msg .geren .dian::after{
+   content:"";
+   width: 10rpx;
+   height: 10rpx;
+   background-color: #99804d;
+   position: absolute;
+   left: 0;top:0;bottom:0;
+   margin: auto;
+   border-radius: 50%;
+
+}
+.gerenlist{
+   padding-bottom: 35rpx;
+   padding-top: 25rpx;
+}
+.gerenlist text{
+  background-color: #ffffff;
+	border-radius: 3px;
+	border: solid 1px #c2c2c2;
+  font-size: 26rpx;
+  color: #333333;
+  margin-right: 15rpx;
+  margin-top: 15rpx;
+  padding: 5rpx 10rpx;
+}
+.xinxi{
+  font-size: 30rpx;
+  color: #333;
+  line-height: 55rpx;
+  border-bottom: 1rpx solid #e2e2e2;
+  padding: 20rpx 0;
+}
+.msg .xinxi:last-child{
+   border-bottom: 1rpx solid #fff;
+}
+.msg .xinxi .dian{
+   position: relative;
+   padding-left: 20rpx;
+   line-height: 70rpx;
+   box-sizing: border-box;
+}
+.msg .xinxi .dian::after{
+   content:"";
+   width: 10rpx;
+   height: 10rpx;
+   background-color: #99804d;
+   position: absolute;
+   left: 0;top:0;bottom:0;
+   margin: auto;
+   border-radius: 50%;
+
+}
+.msg .xinxi .fontwi{
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.msg .xinxi .fontwi text{
+  float: right;
+  color: #999999;
+   font-weight: 500;
+  font-size: 30rpx;
+}
+.msg .xinxi .fontwi text.color{
+  color: #99804d;
+}
+
+/*底部分享/收藏/投递简历  */
+.footer{
+  height: 100rpx;
+  border-top:1rpx solid #e2e2e2;
+  background: #fff;
+  padding: 10rpx;
+  box-sizing: border-box;
+}
+.footer view{
+  width: 100rpx;
+  display: inline-block;
+  font-size: 22rpx;
+  color: #646464;
+  text-align: center;
+  position: relative;
+}
+.footer view button{
+  position: absolute;
+  top:0;left: 0;bottom:0;right: 0;
+  margin: auto;
+  opacity: 0;
+}
+.footer view image{
+  width: 50rpx;
+  display: block;
+  margin: 0 auto;
+}
+.footer view.button{
+  width: 500rpx;
+  height: 100%;
+  float: right;
+  background-color: #99804d;
+  border-radius: 10rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  color:#ffffff;
+}

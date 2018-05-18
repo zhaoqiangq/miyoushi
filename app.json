@@ -6,7 +6,8 @@
     "pages/details/details",
     "pages/work/work",
     "pages/site/site",
-    "pages/workdetails/workdetails"
+    "pages/workdetails/workdetails",
+    "pages/youshidetails/youshidetails"
   ],
   "window": {
     "backgroundTextStyle": "light",

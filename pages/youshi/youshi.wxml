@@ -1,4 +1,6 @@
+
 <scroll-view scroll-y="true" lower-threshold="50" bindscrolltolower="scrolldalist" style='height:100%;'>
+<view class="content {{mask?'active':''}}">
 <!-- header -->  
 <view class="header">
    <text class="add" wx:if="{{false}}">请添加意向职位</text>
@@ -18,7 +20,8 @@
 
 <!--数据  -->
 <view class="list">
-  <view class="item">
+
+  <view class="item" bindtap='details'>
      <view class="item-top">
        <view class="item-img">
           <image src='/assets/images/img2.png' mode='widthFix'></image>
@@ -41,7 +44,7 @@
       </view>
    </view>
 
-     <view class="item">
+     <view class="item" bindtap='details'>
      <view class="item-top">
        <view class="item-img">
           <image src='/assets/images/img2.png' mode='widthFix'></image>
@@ -64,7 +67,7 @@
       </view>
    </view>
 
-     <view class="item">
+     <view class="item" bindtap='details'>
      <view class="item-top">
        <view class="item-img">
           <image src='/assets/images/img2.png' mode='widthFix'></image>
@@ -87,7 +90,7 @@
       </view>
    </view>
 
-     <view class="item">
+     <view class="item" bindtap='details'>
      <view class="item-top">
        <view class="item-img">
           <image src='/assets/images/img2.png' mode='widthFix'></image>
@@ -110,7 +113,7 @@
       </view>
    </view>
 
-     <view class="item">
+     <view class="item" bindtap='details'>
      <view class="item-top">
        <view class="item-img">
           <image src='/assets/images/img2.png' mode='widthFix'></image>
@@ -135,9 +138,10 @@
 </view>
 
 <!-- loading -->
-<view class="loading">
+  <view class="loading">
        <image src='/assets/images/loading.gif' mode='widthFix'></image>
   </view> 
+</view>
 </scroll-view>
 
 <!-- 遮罩 -->

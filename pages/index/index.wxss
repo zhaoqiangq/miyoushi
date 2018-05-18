@@ -130,6 +130,12 @@ audio{
   right: 0;margin: auto;
 
 }
+.share button{
+  position: absolute;
+  top:0;left: 0;right: 0;bottom:0;
+  margin: auto;
+  opacity: 0;
+}
 .share image{
   width: 173rpx;
 }

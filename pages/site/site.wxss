@@ -64,3 +64,8 @@ page{
   font-size: 30rpx;
   color: #333333;
 }
+.conten .inner .items view.active{
+  background: url('https://m.alibiaojia.com/images/dui.jpg')no-repeat;
+  background-position: 95% center;
+  background-size:24rpx 18rpx; 
+}

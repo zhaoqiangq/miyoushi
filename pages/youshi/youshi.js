@@ -105,4 +105,10 @@ Page({
       url: '../site/site'
     })
   },
+   //切换详情
+  details(){
+    wx.navigateTo({
+      url: '../youshidetails/youshidetails'
+    })
+  }
 })

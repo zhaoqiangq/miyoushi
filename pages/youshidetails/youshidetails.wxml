@@ -1,0 +1,86 @@
+<!-- video  -->
+<video id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls="true" poster="http://m.alibiaojia.com/images/videoimg.jpg"></video>  
+
+<!-- 详情信息   -->
+<view class="msg">
+
+  <view class="title">
+      <view class="name">赵小强</view>
+      <view class="age">80岁 男 小学硕士</view>
+      <view class="xixi">
+         <image src='/assets/images/shishuo3.png' mode="widthFix"></image>
+         <text>在职-考虑机会</text>
+         <image src='/assets/images/work05.png' mode="widthFix"></image>
+         <text>小学</text>
+         <image src='/assets/images/work06.png' mode="widthFix"></image>
+         <text>2年</text>
+      </view>
+  </view> 
+
+  <view class="biye">
+       <view>河北大学化学系本科毕业，首都师范大学分析化学专业硕士研究生毕业，中国科学院大学毕业。</view>
+       <view class="plays">
+          <view class="palleft">
+             《出师表》试讲课 <text>568人观看</text>
+          </view>
+          <view class="palvo">
+             14分32秒
+              <image src='/assets/images/7.png' mode="widthFix"></image>
+          </view>
+       </view>
+       <view class="geren">
+          <text class="dian">个人标签</text>
+          <view class="gerenlist">
+               <text>911名校毕业</text>
+               <text>杯赛经验</text>
+               <text>911名校毕业</text>
+               <text>杯赛经验</text>
+          </view>
+       </view>
+  </view>
+
+  <view class="xinxi">
+     <text class="dian">岗位意向</text>
+     <view class="fontwi">中学语文老师  <text class="color">6K-1.2W</text></view>
+     <view>岗位类型：全职</view>
+     <view>公司类型：培训班    </view>
+    <view>工作地区：四川 成都 高新区</view>
+  </view>
+
+  <view class="xinxi">
+     <text class="dian">教育经历</text>
+     <view class="fontwi">四川师范大学  <text>2012.5-2016.7</text></view>
+     <view>本科  教育心理学</view>
+     <view>在大学的四年中，曾担任学生会主席，在班上被同学们推举担任班长一职。 </view>
+  </view>
+  
+  <view class="xinxi">
+     <text class="dian">教学经历</text>
+     <view class="fontwi">四川师范大学  <text>2012.5-2016.7</text></view>
+     <view>本科  教育心理学</view>
+     <view>在大学的四年中，曾担任学生会主席，在班上被同学们推举担任班长一职。 </view>
+  </view>
+  
+  <view class="xinxi">
+     <text class="dian">荣誉奖项</text>
+     <view>四川最具创意课件奖  <text>2016.9.15</text></view>
+  </view>
+
+
+</view>
+
+<!-- 底部分享/收藏/投递简历 -->
+<view class="footer">
+  <view>
+    <image src='/assets/images/work15.png' mode='widthFix'></image>
+    收藏
+  </view>
+  <view>
+    <image src='/assets/images/work16.png' mode='widthFix'></image>
+    分享
+    <button></button>
+  </view>
+  <view class="button">
+      投递简历
+  </view>
+</view>
