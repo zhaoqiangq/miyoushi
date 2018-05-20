@@ -1,7 +1,7 @@
 <view class="content">
     <view class="img">
         <image src='/assets/images/img2.png' mode="widthFix"></image>
-        <image class="paizhao" src='/assets/images/11.png' mode="widthFix"></image>
+        <image class="paizhao" src='/assets/images/xianji.png' mode="widthFix"></image>
     </view>
 
     <view class="list">

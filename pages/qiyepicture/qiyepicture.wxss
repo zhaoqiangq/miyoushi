@@ -1,0 +1,28 @@
+/* pages/qiyepicture/qiyepicture.wxss */
+page{
+  background: #f8f8f8;
+  border-top: 1rpx solid #e2e2e2;
+}
+.content{
+  padding: 20rpx;
+
+}
+.content view{
+  width: 158rpx;
+	height: 158rpx;
+	border-radius: 10rpx;
+	border: solid 1rpx #c2c2c2;
+  text-align: center;
+  line-height: 158rpx;
+  display: inline-block;
+  margin-bottom: 20rpx;
+  margin-right: 20rpx;
+  overflow: hidden;
+}
+.content view image{
+  width: 100%;
+}
+.content view image.add{
+  width: 60rpx;
+  vertical-align:middle;
+}

@@ -1,0 +1,87 @@
+ <!-- banner -->
+<swiper indicator-dots="true"  indicator-color="#809ca0" indicator-active-color="#fff" autoplay="true" interval="1500" duration="500" circular="true">
+    <block wx:for="{{imgUrls}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" mode="widthFix"/>
+      </swiper-item>
+    </block>
+</swiper>   
+<view class="title">
+  <image src='/assets/images/workimg02.jpg' mode="widthFix"></image>
+  <view>
+      <text>轻备学院</text>
+      <text>www.qingbeixy.com</text>
+      <text>培训机构 | 50-100人</text>
+  </view>
+</view>
+<view class="nav">
+  <view class="{{isactive?'active':''}}" bindtap='zhaoping'>招聘职位</view>
+  <view class="{{!isactive?'active':''}}" bindtap='jianjie'>公司简介</view>
+</view>
+
+<!--招聘职位  -->
+<view wx:if="{{isactive}}" class="list">
+    <view class="item" bindtap='details'>
+        <view class="item-img">
+            <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+            <image src='/assets/images/work07.png' class="icon" mode='widthFix'></image>
+        </view>
+        <view class="item-msg">
+            <view class="h6">初中语文老师 <text class="span ">6k-10k</text></view>
+            <view>轻备学院 <text class="gl">|</text>全职 <text class="span color">2个小时前活跃</text></view>
+            <view class="msg">  
+               <image class="site" src='/assets/images/work04.png' mode='widthFix'></image>
+               <text> 成都 高新区</text>
+               <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+               <text>硕士</text>
+                <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+               <text>3-5年</text>
+            </view> 
+        </view>
+    </view>
+
+     <view class="item" bindtap='details'>
+        <view class="item-img">
+            <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+            <image src='/assets/images/work07.png' class="icon" mode='widthFix'></image>
+        </view>
+        <view class="item-msg">
+            <view class="h6">初中语文老师 <text class="span ">6k-10k</text></view>
+            <view>轻备学院 <text class="gl">|</text>全职 <text class="span color">2个小时前活跃</text></view>
+            <view class="msg">  
+               <image class="site" src='/assets/images/work04.png' mode='widthFix'></image>
+               <text> 成都 高新区</text>
+               <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+               <text>硕士</text>
+                <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+               <text>3-5年</text>
+            </view> 
+        </view>
+    </view>
+
+    <view class="item" bindtap='details'>
+        <view class="item-img">
+            <image src='/assets/images/workimg02.jpg' mode='widthFix'></image>
+            <image src='/assets/images/work07.png' class="icon" mode='widthFix'></image>
+        </view>
+        <view class="item-msg">
+            <view class="h6">初中语文老师 <text class="span ">6k-10k</text></view>
+            <view>轻备学院 <text class="gl">|</text>全职 <text class="span color">2个小时前活跃</text></view>
+            <view class="msg">  
+               <image class="site" src='/assets/images/work04.png' mode='widthFix'></image>
+               <text> 成都 高新区</text>
+               <image class="education" src='/assets/images/work05.png' mode='widthFix'></image>
+               <text>硕士</text>
+                <image class="tiem" src='/assets/images/work06.png' mode='widthFix'></image>
+               <text>3-5年</text>
+            </view> 
+        </view>
+    </view>
+</view>
+
+
+<!-- 公司简介  -->
+<view class="jianjie" wx:if="{{!isactive}}">
+    <viwe class="text">简介</viwe>
+    <view> 支付宝（中国）网络技术有限公司是国内领先的第三方支付平台，致力于提供“简单、安全、 快速”的支付解决方案。支付宝公司从2004年建立开始，始终以“信任”作为产品和服务的核心。旗下有“支付宝”与“支付宝钱包”两个独立品牌。自2014年第二季度开始成为当前全球最大的移动支付厂商。</view>
+</view>

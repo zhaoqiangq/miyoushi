@@ -1,6 +1,6 @@
  <view class="msg">
     请确保所填信息真实可靠，我们将处理不实信息！
-    <image class="right" src='/assets/images/colse1.png' mode="widthFix"></image>
+    <image class="right" src='/assets/images/close1.png' mode="widthFix"></image>
  </view>
  <view class="list">
     <picker value="{{index}}" range="{{sex}}">
@@ -9,12 +9,10 @@
        <text>初中 语文</text>
        </view> 
     </picker>
-     <picker value="{{index}}" range="{{sex}}">
-       <view>工作地点
+    <view>工作地点
        <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
        <text> 成都 高新区</text>
-       </view> 
-    </picker>    
+    </view> 
  </view>
   <view class="border"></view>
    <view class="list active">
@@ -50,15 +48,8 @@
     </view> 
  </view>
 
-<view class="border"></view>
- <view class="list active">
- <view>
-      职位描述
-      <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
-      <image src='/assets/images/my2.png' mode="widthFix"></image>
-    </view>   
- </view>
+
 
  <view class="button">
- 预览
+ 下一步
  </view>

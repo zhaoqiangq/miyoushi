@@ -1,0 +1,3 @@
+<textarea placeholder="请对企业进行简要介绍，以帮助老师们更好的了解。" placeholder-style="color:#c2c2c2;"  />
+
+<view class="button">确定</view>

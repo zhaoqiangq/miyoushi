@@ -1,0 +1,32 @@
+/* pages/workdidian/workdidian.wxss */
+page{
+  border-top: 1rpx solid #e2e2e2; 
+}
+.content image{
+  width: 30rpx;
+  font-size: 30rpx;
+  color: #646464; 
+  margin-top: 10rpx;
+  float: left;
+  margin-right: 30rpx;
+  margin-bottom: 20rpx;
+}
+.content{
+  padding: 30rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: #646464;
+}
+.content view{
+  margin-bottom: 30rpx;
+}
+
+.button{
+  position: fixed;
+  bottom:20rpx;
+  width: 90%;
+  left: 0;right: 0;
+  margin: auto;
+  background-color: #99804d;
+  color: #fff;
+}

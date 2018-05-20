@@ -1,0 +1,8 @@
+<view class="content">
+    <view>
+     <image  src='/assets/images/workimg02.jpg' mode="widthFix"></image>
+    </view>
+    <view>
+     <image class="add" src='/assets/images/work01.png' mode="widthFix"></image>
+    </view>
+</view>

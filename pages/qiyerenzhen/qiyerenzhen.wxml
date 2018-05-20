@@ -1,0 +1,14 @@
+<view class="content">
+    <view class="imagse">
+        <image src='/assets/images/hetong.png'></image>
+        <view>上传营业执照</view>
+    </view>
+
+    <view class="msg">
+       1.请上传<text>成都轻备学院教育科技</text>有限公司清晰可辨认的 
+        <text> 最新营业执照。</text> 
+       <view>2.您的材料信息仅用于身份认证，不会公开。</view>  
+    </view>
+</view>
+
+<view class="button">完成</view>   

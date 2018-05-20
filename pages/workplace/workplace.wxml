@@ -1,0 +1,21 @@
+ <view class="list active">
+    <view>区域
+       <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+       <text>选择市/区</text>
+       </view> 
+    <view>街道/写字楼
+       <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+       <text> 如：美年广场</text>
+    </view> 
+      <view>楼号-门牌号
+       <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+       <text> 如：C座712</text>
+    </view> 
+ </view>
+
+ <map style="width: 100%; height: 430px;" show-location>
+ </map>
+
+<view class="button">
+ 确定
+</view>

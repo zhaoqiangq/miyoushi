@@ -1,8 +1,8 @@
 <view class="content">
-    <image  src='/assets/images/workimg02.jpg' style='width:120rpx;' mode="widthFix"></image>
+    <image  src='/assets/images/ab1.png' style='width:120rpx;' mode="widthFix"></image>
     <view class="h6">觅优师</view>
     <text>v2.2</text>
-     <image  src='/assets/images/workimg.jpg' style='width:300rpx; margin-top: 40rpx;' mode="widthFix"></image>
+     <image  src='/assets/images/ab2.png' style='width:300rpx; margin-top: 40rpx;' mode="widthFix"></image>
      <view class="font">
       什么故事 那么小声听得见本能 听不见可能爱是相对论 快乐穿插了苦闷让情人 怕扪心自问一座风没吹的空城和一个类似崩溃前的清晨那些错与对 以及未來与前尘谁的心 又累 又疼我算是一个阅读爱情的学还是一个浏览记忆的旅人爱总是来去无声让时间哑口无声我只是一个阅读爱情的学生永远不懂关于思念的成分被这个世界折腾快乐要我等多久 我等什么记忆 可以转身看着一个人
       </view>

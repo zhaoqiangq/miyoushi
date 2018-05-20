@@ -1,0 +1,6 @@
+<textarea placeholder="1.工作职责…2.任职要求…3.特别说明…" placeholder-style="color:#c2c2c2;"  />
+<view class="tishi">
+  填写详细、清晰的职位描述，有助于您更准确地展开招聘需求（不能填写电话、QQ、微信等联系方式
+</view>
+
+<view class="button">下一步</view>
