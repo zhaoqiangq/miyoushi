@@ -1,0 +1,63 @@
+<view class="content">
+    <view class="mywallet">
+        <view>
+        <text class="number">8</text>  
+        u币</view>
+        <text>我的余额</text>
+    </view>
+
+    <view class="title">充值金额</view>
+    <view class="wallet-list">
+      <radio-group class="radio-color" bindchange="radioage">
+         <label class="radio" class="{{radioCheckValage=='60U币'?'active':''}}">
+             <radio value="60U币" checked='true'  hidden="true"/>
+             60U币
+            <text>60元</text>
+         </label>
+         <label class="radio" class="{{radioCheckValage=='128U币'?'active':''}}" >
+             <radio value="128U币" hidden="true"/>
+            128U币
+            <text>128元</text>
+         </label>
+          <label class="radio" class="{{radioCheckValage=='298U币'?'active':''}}">
+             <radio value="298U币"  hidden="true"/>
+            298U币
+            <text>298元</text>
+         </label>
+         <label class="radio" class="{{radioCheckValage=='598U币'?'active':''}}" >
+             <radio value="598U币" hidden="true"/>
+            598U币
+             <text>598元</text>
+         </label>
+          <label class="radio" class="{{radioCheckValage=='898U币'?'active':''}}">
+             <radio value="898U币"  hidden="true"/>
+            898U币
+            <text>820元</text>
+         </label>
+         <label class="radio" class="{{radioCheckValage=='1998U币'?'active':''}}" >
+             <radio value="1998U币" hidden="true"/>
+            1998U币
+            <text>1860元</text>
+         </label>
+      </radio-group>
+    </view>
+
+    <view class="title">充值方式</view>
+
+    <view class="weixin">
+      <image src='/assets/images/weixin.png' mode="widthFix"></image>
+      <view class="weimsg">
+         微信
+         <text>充值</text>
+      </view>
+       <image class="active" src='https://m.alibiaojia.com/images/dui.jpg' mode="widthFix"></image>
+    </view>
+   
+    <view class="text">
+        点击去充值，即表示你已阅读并同意  
+        <text>充值协议</text>
+    </view>
+
+    
+</view>
+<view class="button" bindtap='recharge'>去充值</view>

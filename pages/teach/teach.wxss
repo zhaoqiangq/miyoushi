@@ -1,0 +1,72 @@
+/* pages/teach/teach.wxss */
+page{
+  background: #f8f8f8;
+}
+.list{
+   background: #fff;
+}
+.list.active{
+   border-top:1rpx solid #e2e2e2;
+   padding: 0 30rpx;
+   box-sizing: border-box;
+}
+.list.active view:last-child{
+  border: none;
+}
+.list.active view{
+   padding: 0;
+   box-sizing: border-box;
+}
+.list view{
+  border-bottom: 1rpx solid #e2e2e2;
+  height: 108rpx;
+  line-height: 108rpx;
+  font-size: 30rpx;
+  color: #222222;
+  padding: 0 30rpx;
+   box-sizing: border-box;
+}
+.list view text{
+  font-size: 26rpx;
+  color: #c2c2c2;
+  float: right;
+}
+.list view image.right{
+  width: 15rpx;
+}
+.list view image{
+  width: 30rpx;
+  float: right;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+}
+.list view switch{
+  float: right;
+}
+.title{
+  padding-left: 30rpx;
+  box-sizing: border-box;
+  font-size: 26rpx;
+  color: #999999;
+  line-height: 70rpx;
+}
+textarea{
+  width: 100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  background: #fff;
+  height: 300rpx;
+  font-size: 30rpx;
+}
+
+.button{
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+ 	background-color: #99804d;
+	border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: 30rpx;
+  margin: 30rpx auto;
+}

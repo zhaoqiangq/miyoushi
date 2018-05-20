@@ -5,62 +5,46 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+     ispay:1,  //切换支付信息
+     isyue:true,   //是否有余额
+     isactive:false,  //选择支付方式
+     isphone:false  //is 电话
   },
 
   /**
-   * 生命周期函数--监听页面加载
+   * 点击支付
    */
-  onLoad: function (options) {
-  
+  clickpay(){
+    this.setData({ ispay: 2 })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
+    /**
+   * 支付成功
    */
-  onReady: function () {
-  
+  pay(){
+    this.setData({ ispay: 3})
   },
-
   /**
-   * 生命周期函数--监听页面显示
+   * 支付成功完成
    */
-  onShow: function () {
-  
+  returns() {
+    this.setData({ ispay: 1 })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
+   /**
+   * 拨打电话
    */
-  onHide: function () {
-  
+  iphone(){
+    this.setData({ isphone: true })
   },
-
   /**
-   * 生命周期函数--监听页面卸载
+   * 取消拨打电话
    */
-  onUnload: function () {
-  
+  cancel(){
+    this.setData({ isphone: false })
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
+  //充值
+  recharge() {
+    wx.navigateTo({
+      url: '../wallet/wallet'
+    })
   }
 })

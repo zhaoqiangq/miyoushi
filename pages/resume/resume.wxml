@@ -1,0 +1,65 @@
+ <view class="list active">
+    <view bindtap='message'>
+      基本资料
+      <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+      <image src='/assets/images/my2.png' mode="widthFix"></image>
+    </view> 
+    <view bindtap='label'>
+      个人标签
+      <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+      <text>陈松</text>
+    </view> 
+    <view bindtap='intro'>
+      一句话简介
+      <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+      <image src='/assets/images/my2.png' mode="widthFix"></image>
+    </view> 
+    <view>
+      VCR视频简历
+      <image style='width:64rpx;' src='/assets/images/my3.png' mode="widthFix"></image>
+    </view>        
+  </view>
+
+  <view class="border"></view>
+  <view class="list">
+    <view>
+      轻备学院
+      <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+      <text>2016.8-至今</text>
+    </view> 
+  </view>
+  <view class="add" bindtap='teach'>
+      <image class="right" src='/assets/images/my01.png' mode="widthFix"></image>
+      添加教学经历
+  </view>
+  <view class="border"></view>
+  <view class="list">
+    <view>
+      四川师范大学狮子山校区
+      <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+      <text>2016.8-至今</text>
+    </view> 
+  </view>
+  <view class="add" bindtap='education'>
+      <image class="right" src='/assets/images/my01.png' mode="widthFix"></image>
+      添加教育经历
+  </view>
+  <view class="border"></view>
+  <view class="add" bindtap='honor'>
+      <image class="right" src='/assets/images/my01.png' mode="widthFix"></image>
+      添加荣誉奖项
+  </view>
+
+  <view class="yulan">预览简历</view>
+
+  <!--觅优师希望免费为你拍摄一支VCR视频简历  -->
+<view class="shade" wx:if="{{false}}">
+  <view class="phone">
+   <view class="number">觅优师希望免费为你拍摄一支VCR视频简历
+</view>
+   <view class="phonebut">
+      <view bindtap='cancel'>暂不添加</view>
+      <view>我愿意</view>
+   </view>
+  </view> 
+</view>

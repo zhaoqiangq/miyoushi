@@ -1,0 +1,7 @@
+<view class="content">
+    <image  src='/assets/images/succeed.png' mode="widthFix"></image>
+    <view>充值成功</view>
+    <text>60U币</text>
+</view>
+
+<view class="button" bindtap='achieve'>完成</view>

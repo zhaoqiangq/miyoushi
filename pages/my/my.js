@@ -8,59 +8,34 @@ Page({
   
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-  
+  //完成
+  geren() {
+    wx.navigateTo({
+      url: '../resume/resume'
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
+  //意向管理
+  purpose() {
+    wx.navigateTo({
+      url: '../purpose/purpose'
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
+  //客服
+  kefu() {
+    wx.navigateTo({
+      url: '../kefu/kefu'
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
+  //设置
+  set() {
+    wx.navigateTo({
+      url: '../set/set'
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
+  //实名认证
+  approve() {
+    wx.navigateTo({
+      url: '../approve/approve'
+    })
   }
 })

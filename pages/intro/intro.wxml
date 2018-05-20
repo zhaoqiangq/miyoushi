@@ -1,0 +1,2 @@
+ <textarea  placeholder="请输入你的简介" maxlength="300" />
+ <view class="button">完成</view>

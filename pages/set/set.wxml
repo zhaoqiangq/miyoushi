@@ -1,0 +1,14 @@
+<view class="list">
+    <view>
+      关于我们
+     <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+    </view>   
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{sex}}">
+      <view>
+        切换身份
+        <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+        <text>{{sex[index]}}</text>
+      </view> 
+    </picker>
+    
+</view>

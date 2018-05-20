@@ -1,0 +1,32 @@
+/* pages/rechasu/rechasu.wxss */
+page{
+  height: 100%;
+  background: #f8f8f8;
+}
+.content {
+  background: #fff;
+  padding: 70rpx 30rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #333; 
+  border-top:1rpx solid #e2e2e2;
+  line-height: 60rpx;
+}
+.content view{
+  font-size: 30rpx;
+  color: #99804d;
+}
+.content image{
+  width: 120rpx;
+}
+
+.button{
+  width: 90%;
+  height: 100rpx;
+  background: #99804d;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+  font-size: 30rpx;
+  margin: 20rpx auto;
+}

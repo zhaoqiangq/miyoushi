@@ -1,0 +1,14 @@
+<view class="list">
+    <view>
+        名称
+        <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+        <text>四川最具创意课件奖</text>
+    </view> 
+    <picker mode="date" value="{{date}}" bindchange="bindDateChange">
+      <view>
+        开始时间
+        <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+        <text>{{date}}</text>
+      </view> 
+    </picker>
+</view>

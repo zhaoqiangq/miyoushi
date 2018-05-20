@@ -1,0 +1,17 @@
+/* pages/kefudetails/kefudetails.wxss */
+page{
+  padding: 30rpx;
+  background: #f8f8f8;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: #999;
+}
+.h6{
+  font-size: 40rpx;
+  color: #222222;
+  line-height: 70rpx;
+}
+text{
+  margin-top: 50rpx;
+  display: block;
+}

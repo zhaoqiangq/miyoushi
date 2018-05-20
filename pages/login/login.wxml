@@ -1,0 +1,15 @@
+<!--pages/login/login.wxml-->
+<view class="login">
+  <view>
+     <text class="quhao">+86</text>
+     <input type='number' placeholder='请输入手机号' placeholder-style="color:#c2c2c2"></input>
+  </view> 
+  <view>
+      <input type="number" placeholder='请输入验证码' placeholder-style="color:#c2c2c2"></input>
+      <text class="huoqu {{false?'active':''}}">获取验证码</text>
+  </view>
+</view>
+
+<view class="button" > 
+    快速登录
+</view>

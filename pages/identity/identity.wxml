@@ -1,0 +1,10 @@
+<view class="content">
+    <view>
+      <image src="/assets/images/img2.png" class="slide-image" mode="widthFix"/>
+      <view>我是老师</view>
+    </view> 
+    <view>
+      <image src="/assets/images/img2.png" class="slide-image" mode="widthFix"/>
+      <view>我是企业</view>
+    </view> 
+</view>

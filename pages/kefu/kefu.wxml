@@ -1,0 +1,18 @@
+<view class="content">
+  <view class="title">
+      <text class="h6">常见问题</text>
+      <view class="titlelist">
+            <text class="active" bindtap='kufudetails'>用户协议</text>
+             <text>充值</text>
+              <text>认证</text>
+      </view>
+  </view>
+  <view class="msg">
+     条款明细
+  </view>
+</view>
+
+<view class="button">
+   <image src='/assets/images/erji.png' mode="widthFix"></image>
+   联系电话客服
+</view> 

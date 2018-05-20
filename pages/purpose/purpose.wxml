@@ -1,0 +1,55 @@
+<!-- 无意向简历 -->
+<view class="content" wx:if="{{flase}}">
+    <text>请先完善简历</text>
+    <view>去完善</view>
+</view>
+
+<view class="msg">
+   <view class="titles">
+   职位状态 
+    <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+    <text>展示</text>
+   </view>
+   <view class="bottom">
+     <view class="h6">中学语文老师</view>
+     <view>成都 高新区 本科 全职 6K-10K
+     <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+     </view>
+      <view>
+     <image src='/assets/images/yi1.png' mode="widthFix"></image>
+     <text>21人沟通</text>
+     <image src='/assets/images/yi2.png' mode="widthFix"></image>
+     <text>59人看过</text>
+     </view>
+  </view>
+</view>
+
+<view class="add" bindtap='addpurpose'>
+ <image src='/assets/images/my01.png' mode="widthFix"></image>
+添加意向
+</view>
+
+<view class="title">
+  <text>隐藏的职位</text>
+</view>
+
+<view class="msg">
+   <view class="titles">
+   职位状态 
+    <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+    <text>展示</text>
+   </view>
+   <view class="bottom">
+     <view class="h6">中学语文老师</view>
+     <view>成都 高新区 本科 全职 6K-10K
+     <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+     </view>
+      <view>
+     <image src='/assets/images/yi1.png' mode="widthFix"></image>
+     <text>21人沟通</text>
+     <image src='/assets/images/yi2.png' mode="widthFix"></image>
+     <text>59人看过</text>
+     </view>
+  </view>
+</view>
+

@@ -1,0 +1,57 @@
+.content{
+   border-top:1rpx solid #e2e2e2;
+}
+.img{
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  margin: 130rpx auto;
+  position: relative;
+}
+.img image{
+  width: 100%;
+  border-radius: 50%;
+}
+.img .paizhao{
+  width: 100rpx;
+  position: absolute;
+  right: -20rpx;
+  bottom: 30rpx;
+  margin: auto;
+  z-index: 9;
+}
+
+.list{
+   padding: 0 30rpx;
+   box-sizing: border-box;
+
+}
+.list view{
+  border-bottom: 1rpx solid #e2e2e2;
+  height: 108rpx;
+  line-height: 108rpx;
+  font-size: 30rpx;
+  color: #222222;
+}
+.list view text{
+  font-size: 26rpx;
+  color: #c2c2c2;
+  float: right;
+}
+.list view image{
+  width: 15rpx;
+  float: right;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+}
+.button{
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  margin: 80rpx auto;
+  color: #fff;
+  font-size: 30rpx;
+  background: #99804d;
+  border-radius: 5rpx;
+}

@@ -1,0 +1,63 @@
+/* pages/approve/approve.wxss */
+page{
+  background: #f8f8f8;
+  border-top: 1rpx solid #f8f8f8;
+}
+.input{
+  background: #fff;
+  font-size: 30rpx;
+  color: #222222;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+}
+.input view{
+  border-bottom: 1rpx solid #f8f8f8;
+  line-height: 100rpx;
+}
+.input view input{
+  width: 500rpx;
+  text-align: right;
+  margin-right: 30rpx;
+  float: right;
+  height: 100rpx;
+}
+.shangchuang image{
+  width: 50rpx;
+}
+.shangchuang{
+  font-size: 26rpx;
+  color: #999999;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  line-height: 60rpx;
+}
+.zhaopian{
+  height: 210rpx;
+
+}
+.zhaopian view{
+  width: 48%;
+  background: #fff;
+  padding-top: 30rpx;
+  box-sizing: border-box;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+.zhaopian view image{
+  display: block;
+  margin: 20rpx auto;
+}
+.zhaopian view:last-child{
+  float: right;
+}
+
+.zhuyi{
+  padding: 20rpx;
+  box-sizing: border-box;
+  border: 1rpx dashed #e2e2e2;
+  margin-top: 40rpx;
+}
+.zhuyi text{
+  display: block;
+}

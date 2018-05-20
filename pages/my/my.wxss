@@ -1,1 +1,90 @@
-/* pages/my/my.wxss */
+.content .title{
+  border-bottom: 1rpx solid #e2e2e2;
+  padding: 50rpx 30rpx;
+  box-sizing: border-box;
+  position: relative;
+}
+.content .title image{
+  width: 15rpx;
+}
+.content .title text{
+  font-size: 68rpx;
+  color: #222222;
+  font-weight: 600;
+}
+.content .title view{
+  font-size: 26rpx;
+  color: #c2c2c2;
+  margin-top: 10rpx;
+}
+.content .title .touxiang{
+  width: 100rpx;
+  border-radius: 50%;
+  position: absolute;
+  right: 30rpx;top:0;bottom: 0;
+  margin: auto;  
+}
+.vlist{
+  height: 138rpx;
+  line-height: 40rpx;
+  font-size: 26rpx;
+  color: #646464;
+  text-align: center;
+  padding-top: 30rpx;
+  box-sizing: border-box;
+}
+.vlist view{
+  width: 33.33%;
+  float: left;
+}
+.vlist view text{
+  display: block;
+}
+
+.state{
+  height: 108rpx;
+  line-height: 108rpx;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: #222222;
+}
+.state text{
+  font-size: 26rpx;
+  color: #c2c2c2;
+  float: right;
+}
+.state image{
+  width: 15rpx;
+  float: right;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+}
+.border{
+  height: 20rpx;
+  background: #f8f8f8;
+}
+
+.list{
+   padding: 0 30rpx;
+   box-sizing: border-box;
+
+}
+.list view{
+  border-bottom: 1rpx solid #e2e2e2;
+  height: 108rpx;
+  line-height: 108rpx;
+  font-size: 30rpx;
+  color: #222222;
+}
+.list view text{
+  font-size: 26rpx;
+  color: #c2c2c2;
+  float: right;
+}
+.list view image{
+  width: 15rpx;
+  float: right;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+}

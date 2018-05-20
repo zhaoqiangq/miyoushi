@@ -1,6 +1,8 @@
 /* pages/youshidetails/youshidetails.wxss */
 page{
   height: 100%;
+  background: #f8f8f8;
+  padding-bottom: 100rpx;
 }
 video{
   width: 100%;
@@ -9,6 +11,8 @@ video{
 .msg{
   padding: 40rpx 40rpx 0 40rpx;
   box-sizing: border-box;
+  margin-bottom: 100rpx;
+  background: #fff;
 }
 .msg .title{
   border-bottom: 1rpx solid #e2e2e2;
@@ -149,6 +153,9 @@ video{
   background: #fff;
   padding: 10rpx;
   box-sizing: border-box;
+  position: fixed;
+  left: 0;bottom:0;right: 0;
+  margin: auto;
 }
 .footer view{
   width: 100rpx;
@@ -179,4 +186,223 @@ video{
   line-height: 80rpx;
   font-size: 30rpx;
   color:#ffffff;
+}
+
+
+.paystop{
+  padding: 30rpx;
+  box-sizing: border-box;
+  font-size: 34rpx;
+  color: #333333;
+}
+.paystop .title{
+   text-align: center;
+}
+.paystop image{
+  width: 30rpx;
+}
+
+.paystop .title image{
+  float: right;
+}
+
+.paymsg{
+  width: 100%;
+  background: #fff;
+  padding: 20rpx;
+  box-sizing: border-box;
+  margin-top: 30rpx;
+}
+.paymsg::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.paymsg .images{
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  float: left;
+  background: #f8f8f8;
+  text-align: center;
+  overflow: hidden;
+}
+.paymsg .images image{
+  width: 100%;
+}
+.paymsg view.imgxinxi{
+  margin-left: 30rpx;
+  float: left;
+  font-size: 30rpx;
+  padding-top: 20rpx;
+  color: #444444;
+  line-height: 50rpx;
+}
+.paymsg view.imgxinxi text{
+  font-size: 22rpx;
+  color: #99804d;
+}
+.fanshi{
+  line-height: 60rpx;
+  font-size: 26rpx;
+  color: #333333;
+  margin-top: 20rpx;
+}
+
+.paylist view{
+  background: #fff;
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  line-height: 80rpx;
+}
+
+.paylist view .xz{
+  float: right;
+  margin-top: 30rpx;
+}
+.paylist view text{
+  color: #99804d;
+  font-size: 26rpx;
+}
+.paylist view .chongzhi{
+  float: right;
+  width: 100rpx;
+  height: 50rpx;
+  background: #99804d;
+  color: #fff;
+  font-size: 26rpx;
+  line-height: 50rpx;
+  border-radius: 10rpx;
+}
+.tishi{
+  font-size: 26rpx;
+  color: #999999;
+  margin: 30rpx 0rpx;
+}
+.jine{
+  width: 100%;
+  height: 100rpx;
+  background-color: #99804d;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+  font-size: 30rpx;
+  position: fixed;
+  left: 0;bottom:0;
+  right: 0;margin: auto;
+}
+
+.succeed{
+  font-size: 34rpx;
+  color: #333333;
+}
+.succeed image{
+  width: 100rpx;
+  margin: 15rpx auto;
+  display: block;
+}
+.succeed .suc{
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.succeed .title{
+  text-align: center;
+  font-size: 34rpx;
+  color: #333333;
+}
+.succeed .succimg{
+  font-size: 30rpx;
+  text-align: center;
+  color: #99804d;
+  padding: 80rpx 0;
+  line-height: 50rpx;
+}
+.succeed .cop{
+  height: 120rpx;
+  background: #fff;
+  line-height: 120rpx;
+  font-size: 30rpx;
+  color: #333333;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+.succeed .cop view{
+  float: right;
+  width: 120rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+  margin-top: 30rpx;
+  text-align: center;
+  border-radius: 5rpx;
+	border: solid 1rpx #99804d;
+  color: #99804d;
+}
+.succeed .magse{
+  font-size: 26rpx;
+  color: #999999;
+  line-height: 120rpx;
+  text-align: center;
+}
+.succeed .sucbutton{
+  width: 100%;
+  height: 100rpx;
+  background: #fff;
+  font-size: 30rpx;
+  position: fixed;
+  left: 0;bottom:0;
+  margin: auto;
+}
+.succeed .sucbutton view{
+  width: 50%;
+  float: left;
+  text-align: center;
+  line-height: 100rpx;
+
+}
+.succeed .sucbutton view:nth-child(2){
+  	background-color: #99804d;
+    color: #fff;
+}
+
+.shade{
+  position: fixed;
+  top:0;left: 0;right: 0;bottom: 0;
+  margin: auto;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+}
+.shade .phone{
+  position: absolute;
+  top:0;left: 0;right: 0;bottom: 0;
+  margin: auto;
+  width: 90%;
+  height: 225rpx;
+  background: #fff;
+  border-radius: 5rpx;
+  font-size: 30rpx;
+  color: #333333;
+}
+.shade .phone .phonebut{
+   height: 100rpx;
+   border-top:1rpx solid #f8f8f8;
+}
+.shade .phone .phonebut view{
+  width: 50%;
+  line-height: 100rpx;
+  float: left;
+  position: relative;
+}
+.shade .phone .phonebut view button{
+   position: absolute;
+  top:0;left: 0;right: 0;bottom: 0;
+  margin: auto;
+  opacity: 0;
+}
+.shade .phone .phonebut view:first-child{
+  border-right: 1rpx solid #f8f8f8;
+  box-sizing: border-box;
+}
+.shade .number{
+  line-height: 120rpx;
 }

@@ -1,0 +1,110 @@
+/* pages/purpose/purpose.wxss */
+page{
+  background: #f8f8f8;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.content{
+  border-top:1rpx solid #e2e2e2;
+  font-size: 38rpx;
+  text-align: center;
+  line-height: 40rpx;
+  color: #999;
+  padding-top: 300rpx;
+}
+.content view{
+  width: 240rpx;
+	height: 80rpx;
+	border-radius: 10rpx;
+	border: solid 1px #c2c2c2;
+  line-height: 80rpx;
+  margin: 60rpx auto;
+  font-size: 30rpx;
+}
+
+.msg image{
+  width: 30rpx;
+}
+.msg image.right{
+  width: 15rpx;
+}
+.add image{
+  width: 30rpx;
+}
+
+.msg{
+  background: #fff;
+}
+.msg .titles{
+  line-height: 100rpx;
+  font-size: 26rpx;
+  color: #222222;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #e2e2e2;
+}
+.msg .titles image{
+  float: right;
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+}
+.msg .titles text{
+  float: right;
+  color: #c2c2c2;
+}
+.h6{
+  font-size: 30rpx;
+  color: #222222;
+}
+.bottom{
+  padding: 30rpx;
+  font-size: 26rpx;
+  color: #999999;
+  line-height: 50rpx;
+}
+.bottom .right{
+  float: right;
+}
+.bottom image{
+  margin-right: 15rpx;
+  margin-left: 15rpx;
+}
+
+.add{
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background: #fff;
+  font-size: 30rpx;
+  color: #99804d;
+  margin-top: 20rpx;
+}
+.title{
+  height: 100rpx;
+  position: relative;
+  margin-top: 20rpx;
+}
+.title::after{
+  content: "";
+  position: absolute;
+  width: 90%;
+  left: 0;right: 0;
+  top:0;bottom: 0;
+  margin: auto;
+  background: #e2e2e2;
+  height: 1rpx;
+}
+
+.title text{
+  width: 150rpx;
+  font-size: 26rpx;
+  display: block;
+  background: #f8f8f8;
+  color: #c2c2c2;
+  line-height: 100rpx;
+  position: absolute;
+  top:0;left: 0;right: 0;bottom: 0;
+  margin: auto;  
+  z-index: 9;
+  text-align: center;
+}

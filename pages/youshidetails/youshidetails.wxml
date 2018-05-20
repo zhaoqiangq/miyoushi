@@ -2,8 +2,7 @@
 <video id="myVideo" src="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400" binderror="videoErrorCallback" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls="true" poster="http://m.alibiaojia.com/images/videoimg.jpg"></video>  
 
 <!-- 详情信息   -->
-<view class="msg">
-
+<view class="msg" wx:if="{{ispay==1}}">
   <view class="title">
       <view class="name">赵小强</view>
       <view class="age">80岁 男 小学硕士</view>
@@ -70,7 +69,7 @@
 </view>
 
 <!-- 底部分享/收藏/投递简历 -->
-<view class="footer">
+<view class="footer" wx:if="{{ispay==1}}">
   <view>
     <image src='/assets/images/work15.png' mode='widthFix'></image>
     收藏
@@ -80,7 +79,86 @@
     分享
     <button></button>
   </view>
-  <view class="button">
-      投递简历
+  <view class="button" bindtap='clickpay'>
+      获取联系方式
   </view>
+</view>
+
+
+<!--支付信息  -->
+<view class="pays" wx:if="{{ispay==2}}">
+  <view class="paystop">
+    <view class="title">
+        <text>支付信息</text>
+        <image bindtap='returns' src='/assets/images/close.png'  mode="widthFix"></image>
+    </view>
+    <view class="paymsg">
+         <view class="images">
+           <image src='/assets/images/img2.png'  mode="widthFix"></image>
+         </view>
+         <view class="imgxinxi">
+             <view>马雪珍·中学地理老师  </view>
+             <text>60U币</text>
+         </view>
+     </view>
+     <text class="fanshi">支付方式</text>
+     <view class="paylist">
+        <view>
+           余额 <text>82.5U币(余额不足)</text>
+           <image src='http://m.alibiaojia.com/images/dui.jpg'  mode="widthFix" class="xz" wx:if="{{isactive}}"></image>
+           <view class="chongzhi" wx:if="{{isyue}}" bindtap='recharge'>充值</view>
+        </view>
+
+        <view>
+           <image src='/assets/images/weixin.png'  mode="widthFix"></image>
+           微信支付
+            <image class="xz" src='http://m.alibiaojia.com/images/dui.jpg'  mode="widthFix" wx:if="{{!isactive}}"></image>
+        </view>
+        
+     </view>
+
+     <view class="tishi">本产品为虚拟产品，购买后不支持退订、转让、退换，请斟
+酌确认。</view>
+  </view>
+
+  <view class="jine" bindtap='pay'>支付60U币</view>
+</view>
+
+
+<!--支付成功  -->
+
+<view class="succeed" wx:if="{{ispay==3}}">
+  <view class="suc">
+
+    <view class="title">
+        支付结果
+    </view>
+    <view class="succimg">
+        <image src='/assets/images/succeed.png'  mode="widthFix"></image>
+        <text>支付成功</text>
+    </view> 
+
+    <view class="cop">
+       赵小强 18423233212  <view>复制</view>
+    </view>
+    <view class="magse">购买后，下次可在「沟通过」中查看老师联系方式</view> 
+  </view> 
+  <view class="sucbutton">
+    <view bindtap='returns'>完成</view>
+    <view bindtap='iphone'>拨打</view>
+  </view>
+</view>
+
+<!--拨打电话  -->
+<view class="shade" wx:if="{{isphone}}">
+  <view class="phone">
+   <view class="number">+86 183 8888 8888</view>
+   <view class="phonebut">
+      <view bindtap='cancel'>取消</view>
+      <view>
+        拨打
+        <button></button>
+      </view>
+   </view>
+  </view> 
 </view>

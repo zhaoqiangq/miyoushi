@@ -1,0 +1,114 @@
+page{
+  background: #f8f8f8;
+  margin-bottom: 110rpx;
+}
+
+.list{
+   background: #fff;
+}
+.list.active{
+   border-top:1rpx solid #e2e2e2;
+   padding: 0 30rpx;
+   box-sizing: border-box;
+}
+.list.active view:last-child{
+  border: none;
+}
+.list.active view{
+   padding: 0;
+   box-sizing: border-box;
+}
+.list view{
+  border-bottom: 1rpx solid #e2e2e2;
+  height: 108rpx;
+  line-height: 108rpx;
+  font-size: 30rpx;
+  color: #222222;
+  padding: 0 30rpx;
+   box-sizing: border-box;
+}
+.list view text{
+  font-size: 26rpx;
+  color: #c2c2c2;
+  float: right;
+}
+.list view image.right{
+  width: 15rpx;
+}
+.list view image{
+  width: 30rpx;
+  float: right;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+}
+
+.border{
+  height: 20rpx;
+  background: #f8f8f8;
+}
+
+.add{
+  height: 80rpx;
+  font-size: 30rpx;
+  color: #ad8f5e;
+  line-height: 80rpx;
+  text-align: center;
+  background: #fff;
+}
+.add image{
+  width: 20rpx;
+}
+.yulan{
+  height: 100rpx;
+  position: fixed;
+  bottom:0;left: 0;right: 0;
+  margin: auto;
+  background-color: #99804d;
+  text-align: center;
+  line-height: 100rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+
+
+.shade{
+  position: fixed;
+  top:0;left: 0;right: 0;bottom: 0;
+  margin: auto;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+}
+.shade .phone{
+  position: absolute;
+  top:0;left: 0;right: 0;bottom: 0;
+  margin: auto;
+  width: 90%;
+  height: 225rpx;
+  background: #fff;
+  border-radius: 5rpx;
+  font-size: 30rpx;
+  color: #333333;
+}
+.shade .phone .phonebut{
+   height: 100rpx;
+   border-top:1rpx solid #f8f8f8;
+}
+.shade .phone .phonebut view{
+  width: 50%;
+  line-height: 100rpx;
+  float: left;
+  position: relative;
+}
+.shade .phone .phonebut view button{
+   position: absolute;
+  top:0;left: 0;right: 0;bottom: 0;
+  margin: auto;
+  opacity: 0;
+}
+.shade .phone .phonebut view:first-child{
+  border-right: 1rpx solid #f8f8f8;
+  box-sizing: border-box;
+}
+.shade .number{
+  line-height: 120rpx;
+}

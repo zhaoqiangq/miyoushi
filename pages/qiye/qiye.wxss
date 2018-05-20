@@ -1,0 +1,6 @@
+/* pages/qiye/qiye.wxss */
+@import "/common/style/list.wxss";
+page{
+  border-top:1rpx solid #e2e2e2;
+  background: #f8f8f8;
+}

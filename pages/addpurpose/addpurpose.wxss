@@ -1,0 +1,45 @@
+/* pages/addpurpose/addpurpose.wxss */
+page{
+  background: #f8f8f8;
+  margin-bottom: 110rpx;
+  border-top:1rpx solid #e2e2e2;
+}
+
+.list{
+   background: #fff;
+}
+.list.active{
+   border-top:1rpx solid #e2e2e2;
+   padding: 0 30rpx;
+   box-sizing: border-box;
+}
+.list.active view:last-child{
+  border: none;
+}
+.list.active view{
+   padding: 0;
+   box-sizing: border-box;
+}
+.list view{
+  border-bottom: 1rpx solid #e2e2e2;
+  height: 108rpx;
+  line-height: 108rpx;
+  font-size: 30rpx;
+  color: #222222;
+  padding: 0 30rpx;
+   box-sizing: border-box;
+}
+.list view text{
+  font-size: 26rpx;
+  color: #c2c2c2;
+  float: right;
+}
+.list view image.right{
+  width: 15rpx;
+}
+.list view image{
+  width: 30rpx;
+  float: right;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+}

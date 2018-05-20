@@ -1,0 +1,20 @@
+/* pages/set/set.wxss */
+.list view{
+  border-bottom: 1rpx solid #e2e2e2;
+  height: 108rpx;
+  line-height: 108rpx;
+  font-size: 30rpx;
+  color: #222222;
+  padding: 0 30rpx;
+   box-sizing: border-box;
+}
+.list view text{
+  font-size: 26rpx;
+  color: #c2c2c2;
+  float: right;
+}
+.list view image.right{
+  width: 15rpx;
+  float: right;
+  margin-top: 40rpx;
+}

@@ -1,0 +1,64 @@
+ <view class="msg">
+    请确保所填信息真实可靠，我们将处理不实信息！
+    <image class="right" src='/assets/images/close.png' mode="widthFix"></image>
+ </view>
+ <view class="list">
+    <picker value="{{index}}" range="{{sex}}">
+       <view>教学科目
+       <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+       <text>初中 语文</text>
+       </view> 
+    </picker>
+     <picker value="{{index}}" range="{{sex}}">
+       <view>工作地点
+       <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+       <text> 成都 高新区</text>
+       </view> 
+    </picker>    
+ </view>
+  <view class="border"></view>
+   <view class="list active">
+    <view >
+      工作性质
+      <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+      <text>全职</text>
+    </view> 
+    <view>
+      技能要求
+      <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+      <text>已添加3个</text>
+    </view> 
+    <view>
+      最低学历
+      <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+      <text>本科</text>
+    </view> 
+      <view>
+      最低教龄
+      <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+      <text>1-3年</text>
+    </view> 
+      <view>
+      薪资范围
+      <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+      <text>6K-9K</text>
+    </view> 
+   <view>
+      公司标签
+      <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+      <text>已添加2个</text>
+    </view> 
+ </view>
+
+<view class="border"></view>
+ <view class="list active">
+ <view>
+      职位描述
+      <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+      <image src='/assets/images/my2.png' mode="widthFix"></image>
+    </view>   
+ </view>
+
+ <view class="button">
+ 预览
+ </view>

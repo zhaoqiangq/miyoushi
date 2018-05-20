@@ -1,0 +1,31 @@
+<view class="list">
+  <view class="active">911院校毕业</view>
+  <view>911院校毕业</view>
+  <view>911院校毕业</view>
+  <view bindtap='addlabel'>
+  <image src='/assets/images/work01.png' mode="widthFix"></image>
+  添加标签</view>
+</view>
+
+<view class="title">
+    <text>推荐标签</text>
+</view>
+
+
+<view class="list">
+  <view class="active">911院校毕业</view>
+  <view>911院校毕业</view>
+  <view>911院校毕业</view>
+</view>
+
+<!--添加标签  -->
+<view class="shade" wx:if="{{islabel}}">
+  <view class="inner">
+      <view>输入标签，不超过6个字</view>
+      <input type='text'></input>
+     <view class="button">
+        <view bindtap='quxiao'>取消</view>
+        <view>确定</view>
+     </view>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+/* pages/name/name.wxss */
+page{
+  background: #f8f8f8;
+}
+.content{
+  border-top:1rpx solid #e2e2e2;
+}
+input{
+  height: 108rpx;
+  padding-left: 30rpx;
+  color: #222222;
+  font-size: 30rpx;
+  background: #fff;
+}
+.button{
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 30rpx;
+  background: #99804d;
+  color: #fff;
+  margin: 30rpx auto; 
+}

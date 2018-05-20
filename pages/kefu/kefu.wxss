@@ -1,0 +1,52 @@
+/* pages/kefu/kefu.wxss */
+page{
+  background: #f8f8f8;
+  border-top: 1rpx solid #e2e2e2; 
+}
+
+.content{
+  padding: 30rpx;
+  box-sizing: border-box;
+  font-size: 30rpx; 
+}
+
+.title text.h6{
+   font-size: 40rpx; 
+}
+.titlelist{
+  margin-top: 30rpx;
+}
+.titlelist text{
+  padding: 10rpx 20rpx;
+  background-color: #e2e2e2;
+	border-radius: 35px;
+  color: #646464;
+  margin-top: 30rpx;
+  margin-right: 20rpx;
+}
+.titlelist text.active{
+  background: #99804d;
+  color: #fff;
+}
+
+.msg{
+  border-top:1rpx solid #e2e2e2;
+  margin-top: 60rpx;
+  padding-top: 30rpx;
+}
+
+
+.button{
+   position: fixed;
+   left: 0;right: 0;bottom: 0;
+   margin: auto;
+   height: 100rpx;
+   line-height: 100rpx;
+   background: #99804d;
+   color: #fff;
+   font-size: 30rpx;
+   text-align: center;
+}
+.button image{
+  width: 30rpx;
+}

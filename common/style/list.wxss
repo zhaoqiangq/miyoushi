@@ -1,0 +1,65 @@
+.list{
+   background: #fff;
+}
+.list.active{
+   padding: 0 30rpx;
+   box-sizing: border-box;
+}
+.list.active view:last-child{
+  border: none;
+}
+.list.active view{
+   padding: 0;
+   box-sizing: border-box;
+}
+.list view{
+  border-bottom: 1rpx solid #e2e2e2;
+  height: 108rpx;
+  line-height: 108rpx;
+  font-size: 30rpx;
+  color: #222222;
+  padding: 0 30rpx;
+   box-sizing: border-box;
+}
+.list view text{
+  font-size: 26rpx;
+  color: #c2c2c2;
+  float: right;
+}
+.list view image.right{
+  width: 15rpx;
+}
+.list view image{
+  width: 30rpx;
+  float: right;
+  margin-top: 40rpx;
+  margin-left: 20rpx;
+}
+.border{
+  height: 20rpx;
+  background: #f8f8f8;
+}
+.button{
+  position: fixed;
+  bottom: 0;left: 0;right: 0;
+  margin: auto;
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #99804d;
+  text-align: center;
+  font-size: 30rpx;
+  color: #fff;
+}
+.msg{
+background-color: #fff3e1;
+line-height: 72rpx;
+padding: 0 20rpx;
+box-sizing: border-box;
+font-size: 26rpx;
+color: #ffa825;
+}
+.msg image{
+  width: 30rpx;
+  float: right;
+  margin-top: 20rpx; 
+}

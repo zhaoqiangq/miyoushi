@@ -1,0 +1,31 @@
+/* pages/aboutus/aboutus.wxss */
+.content{
+  font-size: 26rpx;
+  color: #646464;
+  text-align: center;
+  padding: 80rpx 40rpx 30rpx 40rpx;
+  box-sizing: border-box;
+  line-height: 50rpx;
+}
+.content .h6{
+  color: #999999;
+}
+.content text{
+  display: block;
+  color: #c2c2c2;
+ 
+}
+.font{
+  font-size: 26rpx;
+  margin-top: 70rpx;
+  text-align: left;
+  text-indent:2em;
+}
+.banquan{
+  width: 100%;
+  position: fixed;
+  bottom:40rpx;
+  font-size: 22rpx;
+  color: #c2c2c2;
+  text-align: center;
+}

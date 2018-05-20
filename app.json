@@ -1,13 +1,35 @@
 {
   "pages": [
+    "pages/aboutus/aboutus",
     "pages/index/index",
     "pages/youshi/youshi",
-    "pages/my/my",
     "pages/details/details",
     "pages/work/work",
     "pages/site/site",
+    "pages/my/my",
     "pages/workdetails/workdetails",
-    "pages/youshidetails/youshidetails"
+    "pages/youshidetails/youshidetails",
+    "pages/wallet/wallet",
+    "pages/rechasu/rechasu",
+    "pages/message/message",
+    "pages/resume/resume",
+    "pages/name/name",
+    "pages/label/label",
+    "pages/intro/intro",
+    "pages/education/education",
+    "pages/teach/teach",
+    "pages/honor/honor",
+    "pages/kefudetails/kefudetails",
+    "pages/kefu/kefu",
+    "pages/set/set",
+    "pages/addpurpose/addpurpose",
+    "pages/purpose/purpose",
+    "pages/login/login",
+    "pages/approve/approve",
+    "pages/identity/identity",
+    "pages/qiye/qiye",
+    "pages/addqiye/addqiye"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

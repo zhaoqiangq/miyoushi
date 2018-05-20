@@ -1,0 +1,56 @@
+/* pages/login/login.wxss */
+page{
+  border-top:1rpx solid #e2e2e2;
+}
+.login{
+  padding: 0 60rpx;
+  box-sizing: border-box;
+  margin-top: 300rpx;
+}
+.login view{
+  font-size: 28rpx;
+  color: #333; 
+  border-bottom: 1rpx solid #e2e2e2;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.login view::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.login view input{
+  width: 400rpx;
+  float: left;
+  height: 100%;
+}
+.login view text{
+  float: left;
+}
+.login view text.quhao{
+  width: 50rpx;
+  display: block;
+  line-height: 40rpx;
+  padding-right: 30rpx;
+  margin-right: 30rpx;
+  border-right: 1rpx solid #e2e2e2; 
+  margin-top: 30rpx;
+}
+.login view text.huoqu{
+  float: right;
+  color: #99804d;
+}
+.login view text.huoqu.active{
+  color: #999;
+}
+
+.button{
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  color: #fff;
+  background: #99804d;
+  font-size: 30rpx;
+  margin: 80rpx auto;
+}

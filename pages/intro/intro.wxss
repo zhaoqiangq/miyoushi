@@ -1,0 +1,24 @@
+/* pages/intro/intro.wxss */
+page{
+  background: #f8f8f8;
+  border-top:1rpx solid #e2e2e2;
+}
+textarea{
+  background: #fff;
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: #222222;
+}
+.button{
+  width: 90%;
+  height: 100rpx;
+  line-height: 100rpx;
+ 	background-color: #99804d;
+	border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: 30rpx;
+  margin: 30rpx auto;
+}

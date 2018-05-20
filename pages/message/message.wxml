@@ -1,0 +1,30 @@
+<view class="content">
+    <view class="img">
+        <image src='/assets/images/img2.png' mode="widthFix"></image>
+        <image class="paizhao" src='/assets/images/11.png' mode="widthFix"></image>
+    </view>
+
+    <view class="list">
+        <view bindtap='name'>
+           姓名
+            <image src='/assets/images/work09.png' mode="widthFix"></image>
+            <text>陈松</text>
+        </view> 
+        <picker bindchange="bindPickerChange" value="{{index}}" range="{{sex}}">
+         <view>
+           性别
+           <image src='/assets/images/work09.png' mode="widthFix"></image>
+           <text>{{sex[index]}}</text>
+        </view> 
+        </picker>
+        <picker bindchange="bindPickerChangex" value="{{indexs}}" range="{{array}}">
+         <view>
+           教龄
+           <image src='/assets/images/work09.png' mode="widthFix"></image>
+           <text>{{array[indexs]}}</text>
+        </view> 
+        </picker>
+    </view>
+
+    <view class="button">完成</view>
+</view>

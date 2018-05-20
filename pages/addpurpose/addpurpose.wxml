@@ -1,0 +1,42 @@
+<view class="list">
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{sex}}">
+       <view>教学科目
+       <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+       <text>初中 语文</text>
+       </view> 
+     </picker>
+     <picker bindchange="bindPickerChange" value="{{index}}" range="{{sex}}">
+       <view>岗位类型
+       <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+       <text>全职</text>
+       </view> 
+     </picker>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{sex}}">
+       <view>公司性质
+       <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+       <text>培训班</text>
+       </view> 
+     </picker>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{sex}}">
+       <view>工作城市
+       <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+       <text>四川 成都 高新区</text>
+       </view> 
+     </picker>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{sex}}">
+       <view>全职薪资要求
+       <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+       <text>6K-10K</text>
+       </view> 
+     </picker>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{sex}}">
+       <view>兼职薪资要求
+       <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+       <text>200/小时</text>
+       </view> 
+     </picker>
+    <view>
+      VCR视频简历
+      <image style='width:64rpx;' src='/assets/images/my4.png' mode="widthFix"></image>
+    </view>        
+  </view>

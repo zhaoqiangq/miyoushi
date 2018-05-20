@@ -1,0 +1,42 @@
+<view class="list">
+    <view>
+      机构名称
+      <text>轻备学院教</text>
+    </view>   
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{sex}}">
+      <view>
+        任教科目
+        <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+        <text>{{sex[index]}}</text>
+      </view> 
+    </picker>
+     <picker bindchange="bindPickerChange" value="{{index}}" range="{{sex}}">
+      <view>
+        学历层次
+        <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+        <text>{{sex[index]}}</text>
+      </view> 
+    </picker>
+     <picker mode="date" value="{{date}}" bindchange="bindDateChange">
+      <view>
+        开始时间
+        <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+        <text>{{date}}</text>
+      </view> 
+    </picker>
+      <picker mode="date" value="{{date}}" bindchange="bindDateChanges">
+      <view>
+        开始时间
+        <image class="right" src='/assets/images/work09.png' mode="widthFix"></image>
+        <text>{{dates}}</text>
+      </view> 
+    </picker>
+</view>
+
+<view class="title">任教经历</view>
+
+<textarea placeholder='用一段话描述这段经历（教学内容、教学成果）'>
+  
+</textarea>
+
+<view class="button">完成</view>
